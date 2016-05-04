@@ -3,7 +3,7 @@
 > Kaijun/hexo-theme-huxblog 로 부터 fork.
 > 정적 웹페이지 블로그 플랫폼인 hexo.io 기반.
 
-###[블로그 바로가기](http://kimjmin.net)
+###[블로그 바로가기 &rarr;](http://kimjmin.net)
 
 이하는 원 repository의 README.md 내용.
 
