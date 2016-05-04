@@ -1,3 +1,14 @@
+#blog
+
+> Kaijun/hexo-theme-huxblog 로 부터 fork.
+> 정적 웹페이지 블로그 플랫폼인 hexo.io 기반.
+
+###[블로그 바로가기](http://kimjmin.net)
+
+이하는 원 repository의 README.md 내용.
+
+
+
 #Hexo-Theme-Huxblog
 
 > Ported Theme of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), Thank [Huxpro](https://github.com/Huxpro) for designing such a flawless theme.
