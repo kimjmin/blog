@@ -4,7 +4,7 @@
 
 # Site
 title: Jongmin's Blog
-subtitle: 종민의 블로그
+subtitle: SW engineer, evangelist, husband and father of son and daughter
 author: Jongmin Kim
 language:
 timezone:
@@ -19,7 +19,7 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: Kaijun's Blog
+SEOTitle: Jongmin's blog
 header-img: img/home-bg.jpg
 email: kimjmin@gmail.com
 description: ""
@@ -57,7 +57,7 @@ anchorjs: true                          # if you want to customize anchor. check
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "sidebar!"
-sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # Featured Tags

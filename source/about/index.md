@@ -2,7 +2,7 @@
 layout: "about"
 title: "About"
 date: 2016-04-21 04:48:33
-description: "Hey, this is Kaijun."
+description: "The Truth About Jongmin / 종민에 관한 진실들"
 header-img: "img/about-bg.jpg"
 ---
 
