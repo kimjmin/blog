@@ -7,7 +7,7 @@ author:     "Hux"
 catalog:    true
 header-img: "post-bg-js-module.jpg"
 tags:
-    - 前端开发
+    - 블로그
     - JavaScript
 ---
 
