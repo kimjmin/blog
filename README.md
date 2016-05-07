@@ -7,6 +7,7 @@
 
 이하는 원 repository의 README.md 내용.
 
+`deploy` 이후에는 패키지들 사라짐 `npm install` 다시 해줘야 함. 왜그런지 모르겠다.
 
 
 #Hexo-Theme-Huxblog
