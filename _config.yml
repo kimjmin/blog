@@ -36,9 +36,8 @@ linkedin_username:  kimjmin
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-
 # Disqus settings
-#disqus_username: _your_disqus_short_name_
+disqus_username: kimjmin
 
 # Duoshuo settings
 # duoshuo_username: kaijun

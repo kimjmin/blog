@@ -1,4 +1,4 @@
-/* 상단 헤더 타이틀 글씨 크기 변경 및 그림자 적용. */
+/* 헤더 타이틀 글씨 크기 변경 및 그림자 적용. */
 .intro-header .site-heading h1,
 .intro-header .page-heading h1 {
   text-shadow: 0px 0px 4px black, 3px 3px 10px black, 0px 0px 10px white,  0px 0px 15px white, 0px 0px 20px white;
@@ -19,19 +19,22 @@
   }
 }
 
-/* 상단 헤더 설명 글씨 그림자 적용. */  
+/* 헤더 설명 글씨 그림자 적용. */  
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
   text-shadow: 0px 0px 2px black, 2px 2px 4px black;
 }
 
 /* 매뉴 네비게이션 바 글씨에 그림자 적용. */
-a.navbar-brand {
-  text-shadow: 0px 0px 2px black, 1px 1px 2px black;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  box-shadow: 0px 0px 2px black, 1px 1px 2px black;
+/* 모바일 화면에서 항상 그림자 적용. */
+@media screen and (max-width: 767px) {
+  a.navbar-brand {
+    text-shadow: 0px 0px 2px black, 1px 1px 2px black;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar {
+    box-shadow: 0px 0px 2px black, 1px 1px 2px black;
+  }
 }
 
 @media only screen and (min-width: 768px) {
