@@ -12,7 +12,7 @@ header-img: "img/about-bg.jpg"
 
 ## 좋아하는 것
 
-> 새롭고 재미있는 것, 우연히 발견한 남들이 잘 모르는 것. 세상 모든 일의 기준점은 재미가 있느냐 없느냐.
+> 새롭고 재미있는 것, 우연히 발견한 남들이 잘 모르는 것. 세상 모든 일의 기준점을 재미가 있느냐 없느냐로 나눔.
 
 ### 게임 (게임이 없었으면 내 인생도 없었다.)
 - **어린 시절**: [ 던전 앤 드래곤 2 (CAPCOM - 전캐릭 원코인 클리어), 1990년대에 발매된 거의 모든 PC 게임들 ]
@@ -31,12 +31,16 @@ header-img: "img/about-bg.jpg"
 
 ### 음악, 아티스트 (오덕주의)
 - **게임 OST**
-  - WoW: [~~힝힝 행항홍 행홍~~ A Call To Arms](https://namu.wiki/w/A%20Call%20To%20Arms), 스카이림: [Dragonborn](https://namu.wiki/w/Dragonborn), [Sky Gunner](https://www.youtube.com/watch?v=cjo-9a9KLQ8)(적들이 너무 귀엽잖아..), [DMC4 : Out of Darkness](https://www.youtube.com/watch?v=2VpdX7mdvtw), 문명4: [바바예투](https://www.youtube.com/watch?v=A4Pxc-iW5wM)
-  - DJ Max: [ [바람에게 부탁해](https://www.youtube.com/watch?v=1ERvK2RCqBY), [바람에게 부탁해 Live Mix](https://www.youtube.com/watch?v=tIJweJMbt50), [Oblivion](https://www.youtube.com/watch?v=1UwAUAayvbY),[BJJ - First Kiss](https://www.youtube.com/watch?v=BQt6GO7y8vc), [Tsukasa - In My Heart](https://www.youtube.com/watch?v=buRJe3lPdNo) ]
+  - 워크래프트: [~~힝힝 행항홍 행홍~~ A Call To Arms](https://namu.wiki/w/A%20Call%20To%20Arms)
+  - 스카이림: [Dragonborn](https://namu.wiki/w/Dragonborn)
+  - 스카이거너: [SkyGunner](https://www.youtube.com/watch?v=cjo-9a9KLQ8)(적들이 너무 귀엽잖아..)
+  - 데빌메이 크라이 4: [Out of Darkness](https://www.youtube.com/watch?v=2VpdX7mdvtw)
+  - 문명4: [바바예투](https://www.youtube.com/watch?v=A4Pxc-iW5wM)
+  - DJ Max: [ [바람에게 부탁해](https://www.youtube.com/watch?v=1ERvK2RCqBY), [바람에게 부탁해 Live Mix](https://www.youtube.com/watch?v=tIJweJMbt50), [Oblivion](https://www.youtube.com/watch?v=1UwAUAayvbY), [BJJ - First Kiss](https://www.youtube.com/watch?v=BQt6GO7y8vc), [Tsukasa - In My Heart](https://www.youtube.com/watch?v=buRJe3lPdNo) ]
   - Napple Tale (작곡: 칸노 요코, 성우: 사카모토 마야)
     - 요정도감: [ [Tail Song (Shippo No Uta)](https://www.youtube.com/watch?v=vJnqqlZ05Yw&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z&index=23), [A Stroll](https://www.youtube.com/watch?v=v_T2bEBiBR8&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z&index=3), [Cecil's Garden](https://www.youtube.com/watch?v=OwuIwe_Ldtw&index=1&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z), [13 Ice Cream](https://www.youtube.com/watch?v=E3IWkPkB7ts&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z&index=4), [Green Wings](https://www.youtube.com/watch?v=xm_ilry1OLA&index=15&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z), [Round Sheep](https://www.youtube.com/watch?v=cRUCo6fbGFg&index=17&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z), [Skipper](https://www.youtube.com/watch?v=J3kpoyzJ0Bs&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z&index=18) ]
     - 괴수도감: [ [Dreams In A Pie](https://www.youtube.com/watch?v=dujxuA71tWw&index=30&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z), [Highland Clock](https://www.youtube.com/watch?v=e0fCNU5B3s0&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z&index=32), [October Child](https://www.youtube.com/watch?v=48gtTSS9xW8&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z&index=35), [Rabbit Bed](https://www.youtube.com/watch?v=fBMD7NfnAe4&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z&index=37), [Winter's Petal](https://www.youtube.com/watch?v=J-7zh838o1o&index=49&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z), [Wild Wind](https://www.youtube.com/watch?v=sR_Nc_wMWD4&index=50&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z) ]
-- **영화, 애니 OST**: [ 에스카플로네: 다 좋음. 특히 [반지](https://www.youtube.com/watch?v=2BcGZUKMCJs), 귀를 기울이면, 이누야사: [Every Heart(BOA)](https://www.youtube.com/watch?v=BojuFgxjkOs) ]
+- **영화, 애니 OST**: [ 에스카플로네: 다 좋음. 특히 [반지](https://www.youtube.com/watch?v=2BcGZUKMCJs), 이누야사: [Every Heart(BOA)](https://www.youtube.com/watch?v=BojuFgxjkOs), 존 윌리암스: [거의 모든 곡들](https://www.youtube.com/watch?v=TpWWRaIaXAk&feature=youtu.be&t=11m20s) ]
 - **팝, 클래식**: [ [린지 스털링](https://www.youtube.com/user/lindseystomp), [Against the Current](https://www.youtube.com/channel/UCxMsgwldMZiuFTD6jjv32yQ) ]
 - **가요**: 그때 그때 나오는 음악 즐겨듣는 편. 요즘은 우리동네 음악대장(복면가왕)
 
@@ -45,16 +49,16 @@ header-img: "img/about-bg.jpg"
 > 기억에 강하게 남은 일들 위주로 정리.
 
 - 1992 : 첫 출국.
-- 1992 : 첫 PC 조립.
-- 1993 : 첫 프로그래밍 - QBasic. 간단한 그래픽 데모.
+- 1992 : 첫 PC 소유, 개조.
+- 1993 : 첫 프로그래밍 - QBasic.
 - 1993 : 첫 경제활동 - 여름방학 숙제로 부모님 일 도와드리는게 있는데 보통 러시아인들은 여름에 다챠라는 여름 별장에서 지내기 때문에 부모님이랑 텃밭농사, 가축사육 등을 함. 우리는 다챠가 없어서 아빠 회사에서 복사, 커피타기, 팩스보내기 등을 했음. 한달 출근하고 봉급(?) 5만원정도 받았음.
 - 2000 : 울티마 온라인 70시간 연속 플레이.
 - 2002 ~ 2004 : 용투사로 복무. 추석에 미군들 큰집에 데려가서 친척들하고 같이 놀았더니 한미친선활동 공헌했다고 표창도 받음. 장교의 작전중 우수사병 추천으로 AAM 훈장 받음. PLDC(미 부사관 훈련코스) 수료.
 - 2006 : 첫 직장 취업. 신입사원 하계수련대회 기획 & 공연 참여. 대전 발령 후 첫 자취생활.
-- 2007 : 켈타스 선스트라이드 클리어 (흑마).
+- 2007 : Wow - 회사 사람들이랑 카라잔, 막공으로 켈타스 클리어 (고통흑마).
 - 2008 : 첫 연애.
 - 2010 : 첫 아이폰 앱 개발 - 셀프 생일선물로 맥북프로 지른 후 2개월 간 퇴근 후 Object-C 공부하며 짬짬히 만듦.
-- 2012 : 결혼.
+- 2012 : 결혼. twitcasting 으로 인터넷 라이브 방송함. - [셀프축가](https://youtu.be/Cdv2JnGzQ38) (저화질, 오글거림 주의)
 - 2013 : 첫 직장 퇴사, 창업.
 - 2013 : 아들 출생.
 - 2015 : 첫 서적 집필 - "시작하세요 엘라스틱서치" (위키북스)
@@ -74,11 +78,13 @@ header-img: "img/about-bg.jpg"
 - 2015 : 마운틴뷰, 바르셀로나, 도쿄 - 회사 출장.
 - 2016 : 샌프란시스코, 싱가폴 - 회사 출장.
 
-## MBTI : INTJ - 추진력 있는 이론가형
+## MBTI
 
-> 2010년 12월에 검사 한 내용.
+> 2010년 12월에 검사 한 내용. 대체적으로 맞는것 같은데 지금은 조금 달라졌을지도.
 
-### 직관적 통찰력 ㆍ 독창적인 ㆍ 추진력 있는 ㆍ 분석적인 ㆍ 독립적인
+### INTJ - 추진력 있는 이론가형
+
+#### 직관적 통찰력 ㆍ 독창적인 ㆍ 추진력 있는 ㆍ 분석적인 ㆍ 독립적인
 
 INTJ형인 김종민님은 사람이나 사물, 상황을 한 눈에 통찰하는 대담한 직관력을 가지고 있습니다. 항상 큰 그림을 보려고 하기 때문에 서로 다른 대상들이 어떻게 상호 연관되어 있는지를 쉽게 파악합니다. 추상적인 개념을 잘 다루고 과거보다는 미래에 관심을 두며 폭 넓은 관점을 지니고 있으므로 새로운 시스템을 고안하거나 구축하는 일에 적합합니다.
 
@@ -159,11 +165,11 @@ INTJ형인 김종민님은 사람이나 사물, 상황을 한 눈에 통찰하�
 자신의 아이디어가 다른 사람들에게 어떤 영향을 줄 지 다시 한번 생각해 봅니다.
 
 
-### 외향 (E) / 내향 (I) 다면척도
+#### 외향 (E) / 내향 (I) 다면척도
 
 김종민님은 사람이 많은 모임에서 여러 사람과 나누는 대화보다는 심도 있는 대화를 할 수 있는 일대일 대화를 선호합니다.
 
-친밀감을 느끼거나 중요하다고 생각하는 사람들에게만 자신을 드러내며, 폭넓은 대인관계보다 깊이있는 대인관계를 추구하기 때문에 [그냥 아는 사람]과 [친구]를 분명히 구별합니다. 따라서 친구관계는 점진적으로 신뢰감을 쌓으면서 서서히 우정을 키우는 편입니다.
+친밀감을 느끼거나 중요하다고 생각하는 사람들에게만 자신을 드러내며, 폭넓은 대인관계보다 깊이있는 대인관계를 추구하기 때문에 ***[그냥 아는 사람]*** 과 ***[친구]*** 를 분명히 구별합니다. 따라서 친구관계는 점진적으로 신뢰감을 쌓으면서 서서히 우정을 키우는 편입니다.
 
 김종민님은 기본적으로 내향형의 특성을 가지고 있지만, 경우에 따라 혹은 특정한 삶의 영역에 따라 다음과 같은 외향형의 특성도 어느 정도 나타납니다.
 
@@ -178,7 +184,7 @@ INTJ형인 김종민님은 사람이나 사물, 상황을 한 눈에 통찰하�
 김종민님은 전혀 모르는 사람들이 많이 모여 있는 상황이나, 대화를 주도하는 누군가가 있는 경우에는 굳이 나서려 하지 않습니다. 그러나 아는 사람들의 모임인 경우나 나설 수 밖에 없는 상황일 때에는 큰 어려움없이 먼저 대화를 시작하고 이끌어 갑니다. 또 아무도 서로를 소개해주지 않는다면 먼저 자신을 소개하고 다른 사람들을 서로 소개시켜 줍니다.
 
 
-### 감각 (S) / 직관 (N) 다면척도
+#### 감각 (S) / 직관 (N) 다면척도
 
 김종민님은 남과 다른 독특함을 좋아하며, 어떤 분야에서든 자신의 독창성을 발휘하고 싶어합니다. 기존의 방식이 효과가 있건 없건 언제나 새로운 방식을 시도해 보려고 하며, 반복되는 일을 싫어합니다.
 
@@ -199,7 +205,7 @@ INTJ형인 김종민님은 사람이나 사물, 상황을 한 눈에 통찰하�
 미래의 가능성보다는 과거와 현재에 주의를 기울이며, 처음 접하는 문제가 생겼을 경우에는 이미 알고 있는 접근법을 출발점 삼아 시행착오를 통하여 새 해결책을 만들어 가려는 경향이 있습니다.
 
 
-### 사고 (T) / 감정 (F) 다면척도
+#### 사고 (T) / 감정 (F) 다면척도
 
 김종민님은 최선의 의사결정은 논리적인 분석을 통해 가능하다고 생각하다는 경향이 있습니다. 개인의 감정이나 가치를 최소화하고, 객관적인 자료와 논리적인 추론을 통하여 결론에 도달하는 것이 좋은 의사결정이라고 보는 편입니다.
 
@@ -214,7 +220,7 @@ INTJ형인 김종민님은 사람이나 사물, 상황을 한 눈에 통찰하�
 김종민님은 판단에 도달하기 위한 논리적인 과정보다는 그 판단의 결과가 다른 사람들에게 미치는 영향을 더 중요하게 생각하는 경향이 있습니다. 따라서 한번 판단을 했다 할지라도 다른 사람들이 그것을 싫어하거나 다른 의견을 가지고 있다면 여러 사람의 의견을 수용합니다. 단호하게 자신의 결론을 주장하기보다는 온화하고 부드러운 태도로 다수가 받아들일 수 있는 방법을 찾고자 하는 편입니다.
 
 
-### 판단 (J) / 인식 (P) 다면척도
+#### 판단 (J) / 인식 (P) 다면척도
 
 김종민님은 미래에 대하여 미리 계획을 세우고 일정을 잡아놓는 것을 매우 선호합니다. 그러한 계획을 통하여 중요한 일을 놓치지 않고 능률적으로 일할수 있다고 믿기 때문입니다. 여가 활동을 할 때에도 어떤 활동을 언제 할 것인지 구체적으로 정해놓으려고 합니다.
 
