@@ -5,14 +5,15 @@
 # Site
 title: Jongmin's Blog
 subtitle: Survivor of digital era, SW engineer, evangelist, husband and father
-author: Jongmin Kim
+author: Jongmin Kim (김종민)
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://kimjmin.net
-root: /blog
+## github 에 올릴 때는 /blog , 웹사이트에 올릴때는 / 로. 일단은 수동으로 작업해야 하는데 자동화 할 수 있는 방법이 있는지 고민해보자.
+root: /
 permalink: :year/:month/:title/
 permalink_defaults:
 

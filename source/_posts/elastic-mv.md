@@ -6,6 +6,7 @@ date: 2015-06-13
 header-img: "elastic-mv-bg.jpg"
 tags:
   - Elastic
+  - Elasticsearch
   - Silicon Valley
 categories:
   - Elasticsearch

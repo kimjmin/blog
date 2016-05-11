@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Join the Elastic
+title: Elastic 합류
 subtitle:   "Elastic 에 합류하게 되었습니다."
 date: 2015-06-06
 header-img: "IMG_0890.jpg"
 tags:
   - Elastic
+  - Elasticsearch
   - 스타트업
 categories:
   - Elasticsearch
