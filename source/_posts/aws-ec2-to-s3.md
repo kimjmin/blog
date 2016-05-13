@@ -1,14 +1,14 @@
 ---
-ayout: post
+layout: post
 title: EC2 에서 S3 로 파일 전송
 subtitle: "AWS – EC2 에서 S3 로 파일 전송하는 방법"
 date: 2014-02-06
-header-img: "IMG_0890.jpg"
+header-img: "aws_icons.png"
 tags:
-  - Elasticsearch
+  - AWS
   - ICT
 categories:
-  - Elasticsearch
+  - AWS
 ---
 
 지난 몇번에 걸쳐 AWS 설치와 EC2 셋팅 방법을 알아 보았습니다. 지난 내용들은 아래 포스트를 참고 해 주세요.
