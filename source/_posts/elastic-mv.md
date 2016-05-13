@@ -7,7 +7,7 @@ header-img: "elastic-mv-bg.jpg"
 tags:
   - Elastic
   - Elasticsearch
-  - Silicon Valley
+  - 실리콘밸리
 categories:
   - Elasticsearch
 ---

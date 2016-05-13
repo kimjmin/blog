@@ -6,7 +6,6 @@ date: 2014-01-24
 header-img: "big-data-1086802_1920.jpg"
 tags:
   - AWS
-  - ICT
   - Elasticsearch
 categories:
   - AWS

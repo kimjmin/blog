@@ -5,8 +5,10 @@ subtitle: "엘라스틱서치 커뮤니티를 시작하였습니다."
 date: 2014-03-22
 header-img: "IMG_0890.jpg"
 tags:
+  - Elastic
   - Elasticsearch
-  - ICT
+  - 스타트업
+  - 커뮤니티
 categories:
   - Elasticsearch
 ---

@@ -6,16 +6,17 @@ date: 2014-02-06
 header-img: "aws_icons.png"
 tags:
   - AWS
-  - ICT
 categories:
   - AWS
 ---
 
 지난 몇번에 걸쳐 AWS 설치와 EC2 셋팅 방법을 알아 보았습니다. 지난 내용들은 아래 포스트를 참고 해 주세요.
 
-1. AWS 설치 – 인스턴스 생성 및 실행
-1. AWS 설치 – TimeZone 및 Java 설치
-1. AWS 설치 – Apache, MySQL, PHP, phpMyAdmin
+1. [AWS 설치 – EC2 인스턴스 생성 및 실행](/2014/01/aws-ec2-install)
+1. [AWS 설치 – TimeZone 및 Java 설치](/2014/01/aws-time-java)
+1. [AWS 설치 – Apache, MySQL, PHP, phpMyAdmin](/2014/01/aws-apm-install)
+
+
 
 오늘은 AWS 의 컴퓨팅 서비스인 EC2 에서 데이터 저장 서비스인 S3 로 파일을 전송하는 방법을 알아보도록 하겠습니다.
 
