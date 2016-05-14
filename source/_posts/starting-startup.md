@@ -5,6 +5,7 @@ subtitle: "첫 직장을 떠나 새로운 일을 시작합니다."
 date: 2013-07-18
 header-img: "startup.jpg"
 tags:
+  - Life
   - 스타트업
 categories:
   - 스타트업
