@@ -33,7 +33,7 @@ AWS Summit Seoul 2016 행사에 스폰서로 참여했습니다. 일반 참석�
 - **Q: SI도 하시나요?**
   - *A: SI는 안합니다.*
 - **Q: (제게 개인적으로) Elastic 에는 어떻게 입사하셨나요?**
-  - *A: 제 블로그에 [입사 스토리](http://localhost:4000/2015/06/join-elastic/)를 적어 놓았습니다.*
+  - *A: 제 블로그에 [입사 스토리](/2015/06/join-elastic/)를 적어 놓았습니다.*
 - **Q: Logstash 와 Beats 의 차이점이 뭔가요?**
   - *A: Logstash 는 다양한 input, output 파이프라인과 필터 기능이 있지만 무겁고, Beats 는 lightweight data shipper 로서 ES 또는 Logstash로 데이터를 전송하는 기능만 있지만 가볍습니다. 보통 데이터를 수집할 원격 시스템에 Beats 를 설치하고 중간 파이프라인으로 Logstash 를 두는 식으로 설정해서 사용합니다.*
 - **Q: (제가 준비 해 간 Kibana 데모를 보면서) 이런건 어떻게 만드나요?**
