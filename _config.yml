@@ -135,3 +135,5 @@ deploy:
   type: git
   repo: https://github.com/kimjmin/blog
   branch: gh-pages
+  
+  

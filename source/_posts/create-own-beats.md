@@ -1,9 +1,9 @@
 ---
-title: 나만의 Beats 만들기.
+title: 나만의 Beats 만들기
 tags:
   - Elasticsearch
   - Beats
-subtitle: 나만의 Beats 만들기.
+subtitle: 나만의 Elasticsearch Beats 를 만들어 보자
 header-img: metricbeats.png
 categories:
   - Elasticsearch
@@ -67,7 +67,7 @@ lsscan.go ./lsscan.go false 2016-06-02 15:11:47 +0200 CEST 575
 
 출력이 잘 됩니다. 이제 lsbeats 를 만들기 위한 사전 작업들을 실행 해 보겠습니다. cookiecutter 명령어를 이용해서 [Beat Generator Project](https://github.com/elastic/beat-generator) 스켈레톤을 설치합니다.
 ```sh
-cookiecutter https://github.com/elastic/beat-generator.git
+$ cookiecutter https://github.com/elastic/beat-generator.git
 ```
 
 설치 중에 몇가지 질문이 나오는데 대답 해 줍니다. 프로젝트 이름은 우리가 만들 `lsbeat`로 합니다.
@@ -118,9 +118,9 @@ $ tree
 ```
 
 이 프로젝트는 [libbeat](https://github.com/elastic/beats/tree/master/libbeat) 파일들을 포함하고 있으며 수집한 데이터를 elasticsearch로 전송하기 위한 모든 기본 기능들을 담고 있습니다. 이제 프로젝트에서 연관 라이브러리들을 내려받아 설치하고 컴파일 해서 기본 설정 파일들을 생성해야 합니다. 다음 명령들을 차례대로 실행합니다.
-```yml
-make init
-make commit
+```sh
+$ make init
+$ make commit
 ```
 위 명령을 실행하고 나면 `lsbeat.yml`, `lsbeat.template.json` 파일들이 생성되고 `vendor` 디렉토리 아래에 `elstic/beats` 라이브러리 들이 내려받아집니다. `lsbeat.yml` 파일을 살펴보면 beats 실행에 필요한 기본적인 환경변수 값들이 미리 설정이 되어 있습니다.
 ```yml
@@ -137,7 +137,7 @@ lsbeat:
 ```
 
 다시 lsbeat 홈 경로로 돌아와 `make update` 를 실행하고 `lsbeat.yml` 파일을 다시 열어보면 앞의 `etc/beat.yml` 에서 설정 해 준 내용들이 반영된 것을 확인할 수 있습니다.
-```yml
+```sh
 $ make update
 $ head lsbeat.yml
 ################### Lsbeat Configuration Example #########################
