@@ -3,6 +3,8 @@ node_js:
 - '5.0'
 before_script:
 - npm install -g hexo
+- git config --global user.email "kimjmin@gmail.com"
+- git config --global user.name "Jongmin Kim"
 install:
 - npm install
 - hexo clean
