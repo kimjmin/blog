@@ -1,21 +1,19 @@
 language: node_js
-node_js:
-- '5.0'
-before_script:
+branches:
+  only:
+  - master
+before_install:
 - npm install -g hexo
-- git config --global user.email "kimjmin@gmail.com"
-- git config --global user.name "Jongmin Kim"
-install:
 - npm install
-- hexo clean
-- hexo deploy
+install:
+- hexo generate
 deploy:
   provider: s3
   access_key_id: AKIAJ3LNNWE5F4INDLIQ
   secret_access_key:
-    secure: M5hllaffZfAPU50U+kqXHzAoJJoVN2SVP8yxkaVRkRvCDcBgIp/0+wREW8Ujjp6KmcxwvmP76sU83fuAVbnk4AJ3ldn1POQ+Y7+X5eyzPHqQNglNUiukw+KLY6Sj4wHXxVOnHYXUA4jrbTpz217tINEY8Wy+8owl5rJ87Sa94aD/DRS3wZxvL7jlho+LYVU/uOqRMstks5ZjnuqdvMgPV22JXSEyIkNNoAUk6nG1BA4H8RlCcucas0uDjQYPUDdUJRkaqp8/A4MTneDHm837fmmqHz6YhjFyvQ9n+QyeI1tGdd9AYpc/2wxRB9EJuFfOEsxZBY8d3J1K4qyrNI/jujxLv3ezNBqMGu1MtoiqXQQ5/lX/XKRGzKMhUb/0XOQKiYZvx6twmubG3uylpXxjDmNsZkHcaha3nLKtmg6SD21Yk748gwFqpyN/UFfM67jYssDv4PyVCYBQ9IgNH7mf3ShArVd23BLc2Jur3/AjGWe174f80FeiXShUpNNx9fPT74NiHsN6EaxRnOvfTF4Y12GHqYe0irUW/ZihtgiCOZ3gzCJp12EsjIAF7Nbwkt/vjGcdNSvSSoluOEaJuZTEWxIza4V/NDW7F2XZ8IneP0SlTKdVTXrfszE4IyXtR5iU1IzgYhaOjnVuzcud9Sgo9PTB3sRO4BoifDVbrZbVRGY=
+    secure: HgAKleJpKD/jkLNK9TVVXAK8b7OJ4GAwt/q2tBNqYeAIDUhBytROj71SajUGWKOzE9dPJl+ql7fO+TeSStOZm2UNNX48vx0CDQhoq7WkUDHROTkq88xLyQj1BQF4Dqd+wZknwAc/fvuRr5qC7Bqn9a4PN5bPv7uuTQ8WpnnSZ207UCAkjC5eAsLXkvVrLevXrbH2yZimae2FWj8EL4tcjvVWXeXbCpWifPaocwivBt5Wc1OyV3Wg/l2kbEhqFr9ArpWXixhr351Pla4g9wPj1g2vXVnQsasvbrFfi6yQDhkTXmI4x6sy0a5J/cN0ZYo9Oe0JrEW/buwm7oBI+iT7L5FKFN32lvkqD0Qo9Tvfk+elM3Rq5XCRaoKjbSrzQ4oj3pRaZ8gW3C8m4TCoKQ9s5PdmfoTR2T3LW7giK5JBEOKrVy1J+8i4MKQUV4Bos30j7Hp8qVUejAPPGvpp/nU3uVEBwxt3TjiFy2vQLI2OxKQ84y8o23yud/kfVkSdKuMXJsc0R2fchJBjJ35vOP3+1ZJXML8tGekUW/o+rfYsut6eyoquxQweD5fzxginEDXhRy0F1p3Rxj1VcAuDpNGWv85NY/7YyX7YmEfey/wuLYPXplj//i/br1XxKmgA1vK/jQhM/7ehYK3Ruu0suNr3PYPQdqOQea2uqfiE9B12V2g=
   bucket: kimjmin.net.test
   local-dir: public
-  acl: bucket_owner_full_control
+  acl: ''
   on:
     repo: kimjmin/blog
