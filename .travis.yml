@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+- '6'
+- '6.1'
+- '5.11'
+- '0.6'
+- iojs
+before_script:
+- npm install -g hexo
+install:
+- npm install
+- hexo clean
+- hexo deploy
+deploy:
+  provider: s3
+  access_key_id: AKIAJ3LNNWE5F4INDLIQ
+  secret_access_key:
+    secure: M5hllaffZfAPU50U+kqXHzAoJJoVN2SVP8yxkaVRkRvCDcBgIp/0+wREW8Ujjp6KmcxwvmP76sU83fuAVbnk4AJ3ldn1POQ+Y7+X5eyzPHqQNglNUiukw+KLY6Sj4wHXxVOnHYXUA4jrbTpz217tINEY8Wy+8owl5rJ87Sa94aD/DRS3wZxvL7jlho+LYVU/uOqRMstks5ZjnuqdvMgPV22JXSEyIkNNoAUk6nG1BA4H8RlCcucas0uDjQYPUDdUJRkaqp8/A4MTneDHm837fmmqHz6YhjFyvQ9n+QyeI1tGdd9AYpc/2wxRB9EJuFfOEsxZBY8d3J1K4qyrNI/jujxLv3ezNBqMGu1MtoiqXQQ5/lX/XKRGzKMhUb/0XOQKiYZvx6twmubG3uylpXxjDmNsZkHcaha3nLKtmg6SD21Yk748gwFqpyN/UFfM67jYssDv4PyVCYBQ9IgNH7mf3ShArVd23BLc2Jur3/AjGWe174f80FeiXShUpNNx9fPT74NiHsN6EaxRnOvfTF4Y12GHqYe0irUW/ZihtgiCOZ3gzCJp12EsjIAF7Nbwkt/vjGcdNSvSSoluOEaJuZTEWxIza4V/NDW7F2XZ8IneP0SlTKdVTXrfszE4IyXtR5iU1IzgYhaOjnVuzcud9Sgo9PTB3sRO4BoifDVbrZbVRGY=
+  bucket: kimjmin.net.test
+  local-dir: public
+  acl: bucket_owner_full_control
+  on:
+    repo: kimjmin/blog
