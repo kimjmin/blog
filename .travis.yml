@@ -1,4 +1,6 @@
 language: node_js
+node_js:
+- '5.0'
 branches:
   only:
   - master
@@ -7,6 +9,7 @@ before_install:
 - npm install
 install:
 - hexo generate
+- ls
 deploy:
   provider: s3
   access_key_id: AKIAJ3LNNWE5F4INDLIQ
