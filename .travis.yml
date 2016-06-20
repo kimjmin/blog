@@ -16,7 +16,7 @@ deploy:
   secret_access_key:
     secure: XIXOiyPpcmLSpFT8q4qtj47tvCyD06hJShvPeZrYOxRkZdFBWNdyO9k7W2v9mOYBU6CWIhRvGK58GaRdFyHMZs4KuhGTkQSpgh6ehCKneT8zZMByfF/8XbYkGSMMpkc8+AGhsBALyZnv6mvtZyYS4tYWYg7z0HMOcUTkZ1efq7lQQHXhInJ0T90dYidatkmOGeOA9ubQb64A6j99Rb+Yn/fPF/Y9gc7Wcx+41QKptlFGO4usLtHL6zZl9VA1oRf15u4EaVMD1ahzx0qSNjuBGLvE6i4hBrC5WE0Jk9MXeqqo0s/W0JgeQXXT88jwKClPoJ4GrdRYln70uS1mVldge4hysKA5zgAJ26hRLd+bOFQiVFJgFgO7A1mKQQYsJuaZHKtWtajgRQJ+N8MR9xXjso7QetHrLG4zmih3V6o1229tBj0Qql2roGhPNchN1tHKbpG2r6uUL7d3IihilUnFmRGQ9r0tdwdL9UcP3/6B3ZwrhKpzMv3ZSUl2Oz+n7rJiz8RMq8bYd+NbMOgi/ieORnLWPDBcJ5Jg+Bm9JshSo+3JiqGcN47oemeDFaT+Q2BK2RRR5GpnxgoaGScAsZZiUeFWBrtj1bxP3c5J6QD7bGk4LcH53cnPmYsKxEbrpYNfObSksXfAIMbdmDHjnBMzfGOJTKOMNBQh8EbZLD8ZeZU=
   bucket: kimjmin.net.test
-  local-dir: public
+  #local-dir: public
   acl: public_read
   on:
     repo: kimjmin/blog
