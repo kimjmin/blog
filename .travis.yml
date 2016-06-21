@@ -9,9 +9,8 @@ before_install:
 - npm install
 install:
 - hexo generate
-- ls
+- rm -rf node_modules
 deploy:
-  
   provider: s3
   access_key_id: AKIAJ3LNNWE5F4INDLIQ
   secret_access_key:
@@ -20,6 +19,6 @@ deploy:
   endpoint: kimjmin.net.test.s3-website.ap-northeast-2.amazonaws.com
   region: ap-northeast-2
   skip_cleanup: true
-  #local-dir: public
+  local-dir: public
   acl: public_read
   detect_encoding: true
