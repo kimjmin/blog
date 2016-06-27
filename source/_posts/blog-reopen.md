@@ -6,6 +6,9 @@ date: 2016-05-13
 tags:
   - Life
   - Elastic
+  - 가족
+  - 여행
+  - 유럽
 categories:
   - Life
 ---
