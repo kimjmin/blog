@@ -30,22 +30,27 @@ header-img: "img/about-bg.jpg"
 - 정철연: [ 마린블루스, 마조 & 새디 ]
 
 ### 음악, 아티스트 (오덕주의)
+> 음악은 보통 가사는 있는데 알아들을 수 없는 언어 (스와힐리어, 고대 켈트어, 판타지 창조어 등)로 된 노래를 좋아함.
+
 - **게임 OST**
   - 워크래프트: [~~힝힝 행항홍 행홍~~ A Call To Arms](https://namu.wiki/w/A%20Call%20To%20Arms)
   - 스카이림: [Dragonborn](https://namu.wiki/w/Dragonborn)
-  - 스카이거너: [SkyGunner](https://www.youtube.com/watch?v=cjo-9a9KLQ8)(적들이 너무 귀엽잖아..)
+  - 스카이거너: [SkyGunner](https://www.youtube.com/watch?v=cjo-9a9KLQ8) (적들이 너무 귀엽잖아..)
   - 데빌메이 크라이 4: [Out of Darkness](https://www.youtube.com/watch?v=2VpdX7mdvtw)
   - 문명4: [바바예투](https://www.youtube.com/watch?v=A4Pxc-iW5wM)
   - DJ Max: [ [바람에게 부탁해](https://www.youtube.com/watch?v=1ERvK2RCqBY), [바람에게 부탁해 Live Mix](https://www.youtube.com/watch?v=tIJweJMbt50), [Oblivion](https://www.youtube.com/watch?v=1UwAUAayvbY), [BJJ - First Kiss](https://www.youtube.com/watch?v=BQt6GO7y8vc), [Tsukasa - In My Heart](https://www.youtube.com/watch?v=buRJe3lPdNo) ]
   - Napple Tale (작곡: 칸노 요코, 성우: 사카모토 마야)
     - 요정도감: [ [Tail Song (Shippo No Uta)](https://www.youtube.com/watch?v=vJnqqlZ05Yw&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z&index=23), [A Stroll](https://www.youtube.com/watch?v=v_T2bEBiBR8&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z&index=3), [Cecil's Garden](https://www.youtube.com/watch?v=OwuIwe_Ldtw&index=1&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z), [13 Ice Cream](https://www.youtube.com/watch?v=E3IWkPkB7ts&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z&index=4), [Green Wings](https://www.youtube.com/watch?v=xm_ilry1OLA&index=15&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z), [Round Sheep](https://www.youtube.com/watch?v=cRUCo6fbGFg&index=17&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z), [Skipper](https://www.youtube.com/watch?v=J3kpoyzJ0Bs&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z&index=18) ]
     - 괴수도감: [ [Dreams In A Pie](https://www.youtube.com/watch?v=dujxuA71tWw&index=30&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z), [Highland Clock](https://www.youtube.com/watch?v=e0fCNU5B3s0&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z&index=32), [October Child](https://www.youtube.com/watch?v=48gtTSS9xW8&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z&index=35), [Rabbit Bed](https://www.youtube.com/watch?v=fBMD7NfnAe4&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z&index=37), [Winter's Petal](https://www.youtube.com/watch?v=J-7zh838o1o&index=49&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z), [Wild Wind](https://www.youtube.com/watch?v=sR_Nc_wMWD4&index=50&list=PL17tyYsAK0pasreaFLwzUBj1yTqXNxi7Z) ]
-- **영화, 애니 OST**: [ 에스카플로네: 다 좋음. 특히 [반지](https://www.youtube.com/watch?v=2BcGZUKMCJs), 이누야사: [Every Heart(BOA)](https://www.youtube.com/watch?v=BojuFgxjkOs), 존 윌리암스: [거의 모든 곡들](https://www.youtube.com/watch?v=TpWWRaIaXAk&feature=youtu.be&t=11m20s) ]
+- **영화, 애니 OST**
+  - 에스카플로네: 다 좋음. 특히 [반지](https://www.youtube.com/watch?v=2BcGZUKMCJs)
+  - 이누야사: [Every Heart(BOA)](https://www.youtube.com/watch?v=BojuFgxjkOs)
+  - 존 윌리암스: [거의 모든 곡들](https://www.youtube.com/watch?v=TpWWRaIaXAk&feature=youtu.be&t=11m20s)
+  - Children of Dune: [Inama Nushif](https://www.youtube.com/watch?v=7whegFR6Lz0&list=RD7whegFR6Lz0#t=14), [Dune Messiah](https://www.youtube.com/watch?v=LAyRul4jHFY&index=2&list=RD7whegFR6Lz0), [Main Title (House Atreides)](https://www.youtube.com/watch?v=SguJsXDWyw0&index=5&list=RD7whegFR6Lz0)
 - **팝, 클래식**: [ [린지 스털링](https://www.youtube.com/user/lindseystomp), [Against the Current](https://www.youtube.com/channel/UCxMsgwldMZiuFTD6jjv32yQ) ]
-- **가요**: 그때 그때 나오는 음악 즐겨듣는 편. 요즘은 우리동네 음악대장(복면가왕)
+- **가요**: 그때 그때 나오는 음악 즐겨듣는 편. 요즘은 우리동네 음악대장 - 하현우
 
 ## 해본 것
-
 > 기억에 강하게 남은 일들 위주로 정리.
 
 - 1992 : 첫 출국.
