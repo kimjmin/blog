@@ -46,7 +46,7 @@ header-img: "img/about-bg.jpg"
   - 에스카플로네: 다 좋음. 특히 [반지](https://www.youtube.com/watch?v=2BcGZUKMCJs)
   - 이누야사: [Every Heart(BOA)](https://www.youtube.com/watch?v=BojuFgxjkOs)
   - 존 윌리암스: [거의 모든 곡들](https://www.youtube.com/watch?v=TpWWRaIaXAk&feature=youtu.be&t=11m20s)
-  - Children of Dune: [Inama Nushif](https://www.youtube.com/watch?v=7whegFR6Lz0&list=RD7whegFR6Lz0#t=14), [Dune Messiah](https://www.youtube.com/watch?v=LAyRul4jHFY&index=2&list=RD7whegFR6Lz0), [Main Title (House Atreides)](https://www.youtube.com/watch?v=SguJsXDWyw0&index=5&list=RD7whegFR6Lz0)
+  - Children of Dune: [ [Inama Nushif](https://www.youtube.com/watch?v=7whegFR6Lz0&list=RD7whegFR6Lz0#t=14), [Dune Messiah](https://www.youtube.com/watch?v=LAyRul4jHFY&index=2&list=RD7whegFR6Lz0), [Main Title (House Atreides)](https://www.youtube.com/watch?v=SguJsXDWyw0&index=5&list=RD7whegFR6Lz0) ]
 - **팝, 클래식**: [ [린지 스털링](https://www.youtube.com/user/lindseystomp), [Against the Current](https://www.youtube.com/channel/UCxMsgwldMZiuFTD6jjv32yQ) ]
 - **가요**: 그때 그때 나오는 음악 즐겨듣는 편. 요즘은 우리동네 음악대장 - 하현우
 
