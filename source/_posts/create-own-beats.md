@@ -139,7 +139,7 @@ lsbeat:
 다시 lsbeat 홈 경로로 돌아와 `make update` 를 실행하고 `lsbeat.yml` 파일을 다시 열어보면 앞의 `etc/beat.yml` 에서 설정 해 준 내용들이 반영된 것을 확인할 수 있습니다.
 ```sh
 $ make update
-$ head lsbeat.yml
+$ cat lsbeat.yml
 ################### Lsbeat Configuration Example #########################
 
 ############################# Lsbeat ######################################
