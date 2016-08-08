@@ -34,6 +34,11 @@ twitter_username:   kimjmin
 facebook_username:  kimjmin81
 linkedin_username:  kimjmin
 
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
@@ -135,5 +140,4 @@ deploy:
   type: git
   repo: https://github.com/kimjmin/blog
   branch: gh-pages
-  
   
