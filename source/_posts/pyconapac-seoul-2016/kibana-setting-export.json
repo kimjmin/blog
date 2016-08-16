@@ -1,0 +1,175 @@
+[
+  {
+    "_id": "Tweet-Dashboard-PyConApac2016",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Tweet Dashboard-PyConApac2016",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":8,\"id\":\"ReTweets\",\"panelIndex\":4,\"row\":4,\"size_x\":5,\"size_y\":6,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Time-and-Time-Zone\",\"panelIndex\":7,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Time-and-Tags\",\"panelIndex\":8,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"twitter-pie10hashtags\",\"panelIndex\":9,\"row\":4,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"twitter:-Top-Accounts\",\"panelIndex\":11,\"row\":7,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":4,\"id\":\"twitter-Tweets-id-txt-time\",\"panelIndex\":12,\"row\":4,\"size_x\":4,\"size_y\":6,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-4\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-7\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}},\"vis\":{\"colors\":{\"Central Time (US & Canada)\":\"#F9BA8F\",\"Eastern Time (US & Canada)\":\"#EF843C\",\"Seoul\":\"#E24D42\"}}},\"P-8\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}},\"vis\":{\"colors\":{\"pyconapac\":\"#E24D42\"}}},\"P-9\":{\"vis\":{\"colors\":{\"pyconapac\":\"#E24D42\"}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "2016-08-15T15:00:00.000Z",
+      "timeFrom": "2016-08-11T15:00:00.000Z",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Twitter:-map",
+    "_type": "visualization",
+    "_source": {
+      "title": "Twitter: map",
+      "visState": "{\"title\":\"Twitter: map\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Scaled Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatMaxZoom\":16,\"heatMinOpacity\":0.1,\"heatRadius\":25,\"heatBlur\":15,\"heatNormalizeData\":true,\"wms\":{\"enabled\":false,\"url\":\"https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer\",\"options\":{\"version\":\"1.3.0\",\"layers\":\"0\",\"format\":\"image/png\",\"transparent\":true,\"attribution\":\"Maps provided by USGS\",\"styles\":\"\"}}},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"coordinates.coordinates\",\"autoPrecision\":true,\"precision\":2}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"twitter*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Time-and-Time-Zone",
+    "_type": "visualization",
+    "_source": {
+      "title": "twitter-Time and Time Zone",
+      "visState": "{\"type\":\"area\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"smoothLines\":false,\"scale\":\"linear\",\"interpolate\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"user.time_zone.raw\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{},\"title\":\"twitter-Time and Time Zone\"}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"twitter*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Time-and-Tags",
+    "_type": "visualization",
+    "_source": {
+      "title": "twitter-Time and Tags",
+      "visState": "{\"type\":\"line\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"showCircles\":true,\"smoothLines\":false,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"entities.hashtags.text\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{},\"title\":\"twitter-Time and Tags\"}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"twitter*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "pie10hashtags",
+    "_type": "visualization",
+    "_source": {
+      "title": "twitter-pie10hashtags",
+      "visState": "{\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"entities.hashtags.text\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{},\"title\":\"twitter-pie10hashtags\"}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"twitter*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ReTweets",
+    "_type": "visualization",
+    "_source": {
+      "title": "twitter-ReTweets",
+      "visState": "{\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"retweeted_status.text.raw\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{},\"title\":\"twitter-ReTweets\"}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"twitter*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "twitter-Tweets-id-txt-time",
+    "_type": "visualization",
+    "_source": {
+      "title": "twitter-Tweets - id-txt-time",
+      "visState": "{\"title\":\"twitter-Tweets - no retweet prefix\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"@timestamp\",\"customLabel\":\"twit time\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"user.screen_name.raw\",\"exclude\":{\"pattern\":\"RT @.*\",\"flags\":[\"UNIX_LINES\"]},\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"twit-id\"}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"text.raw\",\"size\":1,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"twit-text\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"twitter*\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "twitter:-Top-Accounts",
+    "_type": "visualization",
+    "_source": {
+      "title": "twitter: Top Accounts",
+      "visState": "{\"title\":\"twitter: Top Accounts\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"user.screen_name.raw\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"id\"}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"user.name.raw\",\"size\":1,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"name\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"twitter*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "twitter-pie10hashtags",
+    "_type": "visualization",
+    "_source": {
+      "title": "twitter-pie10hashtags",
+      "visState": "{\"title\":\"twitter-pie10hashtags\",\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"entities.hashtags.text\",\"size\":15,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"twitter*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "twitter-ReTweets",
+    "_type": "visualization",
+    "_source": {
+      "title": "twitter-ReTweets",
+      "visState": "{\"title\":\"twitter-ReTweets\",\"type\":\"table\",\"params\":{\"perPage\":15,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"retweeted_status.text.raw\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"twitter*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "twitter-Time-and-Tags",
+    "_type": "visualization",
+    "_source": {
+      "title": "twitter-Time and Tags",
+      "visState": "{\"title\":\"twitter-Time and Tags\",\"type\":\"line\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"showCircles\":true,\"smoothLines\":false,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"entities.hashtags.text\",\"size\":4,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"twitter*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "comment",
+    "_type": "visualization",
+    "_source": {
+      "title": "comment",
+      "visState": "{\"title\":\"comment\",\"type\":\"markdown\",\"params\":{\"markdown\":\"## 트위터에 `#PyConAPAC` 그리고 `#Elastic` 을 같이 해시태그 해서 올려주시면 대형 포스트잇 또는 디스트레스 볼을 드립니다.\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  }
+]
