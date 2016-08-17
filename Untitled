@@ -1,0 +1,45 @@
+08-13 - Seoul - PyConAPAC 
+13, 14th August 2016
+Seoul COEX Grand Ballroom
+https://www.pycon.kr/2016apac/
+
+Summary / overview of event.
+ES Show Presence:
+Booth? yes
+Branding? yes
+Speaking? no
+Pictures : This pictures is only up floor area of Bronze sponsors. There are more areas but I didn't have time to visit there.
+
+Leads: 
+Cold Leads (just a list – did not visit our booth) : 2,000 attendees
+Medium (came to booth, we scanned them) : 100. We didnt have lead scanner. Mostly attended twitter-hashtag event.
+HOT (they want a meeting) 5
+Total Number of leads:
+Sample list of companies that visited our booth.
+
+
+
+Existing Customer and opps: POSCO ICT (candidate), Samsung SDS
+Competitors in attendance? Splunk, AWS.
+Partners in attendance? Wizcore
+Discussions at the Booth: Any trends
+About J didn't heard about Elasticsearch. (I was surprised). Thought we were company that servicing AWS Elastic instance.
+AWS Organizer thanked us for sponsoring and told many registers asked a booth for new tech company like us.
+I (Jong Min Kim) was alone on the booth first. Jimmy Moon, my friend of Basis came to help me on the afternoon.
+Didn't have lead scanner, so I made google drive form and asked visitors to register. Gave T-Shirt who registered.
+Many people recognized me because of my webinar and blog post. And the interview I did.
+FAQs: (other than introducing Elastic Stack and X-Pack, Cloud)
+What is the difference with AWS Elastic instance? - We service SW and it is opensource. You can embed ES in your own product and deploy it. AWS did so.
+Do we have ES office in Korea and can have Tech Support? - Yes. We are in process of setting business.
+(to Jong Min Kim personal Q) How did you join Elastic? - there is story on my blog. http://kimjmin.net/2015/06/elastic-mv/
+Are you doing SI? (custom develop) - no, we don't do SI.
+(from Proffessor) Is it worth product for college students to study? - absolutely
+Whats is the difference from Logstash and Beats ? - Beats is light data shipper can be installed in remote device.
+(looking Seoul Metro Demo) How can I make this cool Kibana Dashboard? - There is blog post and webinar of building this dashboard. - https://www.elastic.co/kr/blog/seoul-metro-2014
+Future attendance?
+Yes:
+If we do go back, how could we improve our presence?
+need lead scanner or mobile app for registration.
+ES Crew: Jong Min Kim
+ 
+
