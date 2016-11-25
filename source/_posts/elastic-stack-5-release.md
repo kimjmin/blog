@@ -15,7 +15,7 @@ categories:
 
 <p style="font-size:1.6em">**드디어 한글 페이지 번역이 끝났습니다. (/;ㅁ;)/**</p>
 
-5.0 출시를 맞아 Elastic의 홈페이지(https://elastic.co)도 새로 단장을 했습니다. 제품 페이지 부터 참 세련되게 바뀌었네요. :)
+5.0 출시를 맞아 Elastic의 홈페이지(https://elastic.co) 역시 새로 단장을 했습니다. 제품 페이지 부터 참 세련되게 바뀌었네요. :)
 
 ![](elastic-product-page.png)
 
