@@ -237,3 +237,10 @@ INTJ형인 김종민님은 사람이나 사물, 상황을 한 눈에 통찰하�
 
 김종민님은 일상 생활을 할 때 절차가 정해져 있는 반복적인 일을 어느 정도 편하게 느끼는 편이지만, 때에 따라서는 반복적인 틀보다는 새로운 시도를 선호합니다. 업무를 할 때에는 정해진 룰이 유용하지만 집에서는 필요하지 않다고 느낄 수도 있고, 집에서는 정해진 틀이 유용하지만 업무를 할 때에는 필요치 않다고 느낄 수도 있습니다.
 
+
+
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F100001037967268%2Fvideos%2F1385831651461420%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+
+포스팅 테스트
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSaramvirus%2Fposts%2F1220517011343055&width=500" width="500" height="626" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
