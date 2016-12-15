@@ -19,9 +19,14 @@ categories:
 
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F100001037967268%2Fvideos%2F1385831651461420%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
-그리고 페이스북에서 다음과 같은 내용의 소식도 보았습니다.
+그리고 페이스북에서 다음과 같은 내용의 소식도 보았습니다. 
+(출처 : https://www.facebook.com/Saramvirus/posts/1220517011343055)
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSaramvirus%2Fposts%2F1220517011343055&width=500" width="500" height="626" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+![](001.jpg) ![](002.png) ![](003.png) ![](004.png) ![](005.png) ![](006.png) ![](007.png) ![](008.png) ![](009.png) ![](010.png)
+
+![](011.png) ![](011.png) ![](012.png) ![](013.png) ![](014.png) ![](015.png) ![](016.png) ![](017.png) ![](018.png) ![](019.png) 
+
+![](020.png) ![](021.png) ![](022.png) 
 
 오래 전 부터 대한민국 교육 시스템에 많은 회의를 가지고 있었던지라, 어떻게 하면 우리 아이들이 좀 더 자유롭게 생활하며 자랄 수 있을까에 대한 고민이 많았습니다. 지금도 외국 동료들과 일을 하고 있는데, 보면 다들 취미도 뚜렷하면서 상당히 전문적으로 하고 있고 (오픈소스 커미터인 동시에 태권도 사범이라던지) 어린 시절 이런 저런 경험들을 많이 하면서 자란 것들이 부러웠습니다.
 
