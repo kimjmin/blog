@@ -236,11 +236,3 @@ INTJ형인 김종민님은 사람이나 사물, 상황을 한 눈에 통찰하�
 김종민님은 기본적으로 판단형의 특성을 가지고 있지만, 경우에 따라 혹은 특정한 삶의 영역에 따라 다음과 같은 인식형의 특성도 어느 정도 나타납니다. 김종민님은 기한이 정해진 일을 할 때 마감 기한이 되기 전에 미리 많은 일을 해두려고 하지 않습니다. 약간 급하다고 느껴져야 일을 시작하는 편이며, 그러할 때 오히려 성과도 좋습니다. 하지만 마감 기한이 코 앞으로 다가와서 너무 급박해지면 스트레스를 받고 힘들어하기도 합니다.
 
 김종민님은 일상 생활을 할 때 절차가 정해져 있는 반복적인 일을 어느 정도 편하게 느끼는 편이지만, 때에 따라서는 반복적인 틀보다는 새로운 시도를 선호합니다. 업무를 할 때에는 정해진 룰이 유용하지만 집에서는 필요하지 않다고 느낄 수도 있고, 집에서는 정해진 틀이 유용하지만 업무를 할 때에는 필요치 않다고 느낄 수도 있습니다.
-
-
-
-<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F100001037967268%2Fvideos%2F1385831651461420%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-
-포스팅 테스트
-
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSaramvirus%2Fposts%2F1220517011343055&width=500" width="500" height="626" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
