@@ -11,4 +11,4 @@ categories:
 ---
 
 가계부 새로 업데이트 되었습니다. 새 포스트에서 확인하세요.
-[바로가기](http://kimjmin.net/2016/12/dmitri-account-book-2017/)
+[2017 가계부 바로가기](http://kimjmin.net/2016/12/dmitri-account-book-2017/)
