@@ -5,3 +5,6 @@ db.json
 node_modules/
 public/
 .deploy*/
+*.jpg
+*.jpeg
+*.png
