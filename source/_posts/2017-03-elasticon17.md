@@ -141,7 +141,7 @@ AMA(Ask Me Anything) 부스도 작년보다 커졌고, 특히 데모 부스가 �
 
 ![](IMG_1359.jpg) 
 
-운이 좋으면 Definitive Guide 저자이자 Elasticsearch 팀 리드인 [Clinton Gormley](https://github.com/clintongormley)나 Rashid Khan 같은 사람에게 질문을 할 수도 있습니다. 왼쪽에 키 튼 아저씨가 Clint 입니다.
+운이 좋으면 Definitive Guide 저자이자 Elasticsearch 팀 리드인 [Clinton Gormley](https://github.com/clintongormley)나 Rashid Khan 같은 사람에게 질문을 할 수도 있습니다. 왼쪽에 키 큰 아저씨가 Clint 입니다.
 
 ![](IMG_1362.jpg) 
 
