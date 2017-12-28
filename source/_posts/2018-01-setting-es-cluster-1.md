@@ -5,12 +5,12 @@ tags:
   - Elasticsearch
 categories:
   - Elasticsearch
-subtitle: 서버 설정 및 Elasticsearch 설치
+subtitle: 서버 생성 및 Elasticsearch RPM 설치
 date: 2018-01-01
 header-img: "es-bg-architecture.png"
 ---
 
-이번에 필요에 의해 새로 Elastic Stack 클러스터를 구성하게 되었습니다. 구성 방법에 대해서는 여러 레퍼런스가 있지만, 처음부터 다시 한번 쭉 정리 할 생각으로 블로그 포스트에 시리즈물로 작성하려고 합니다.
+이번에 필요에 의해 새로 Elastic Stack 클러스터를 구성하게 되었습니다. 구성 방법에 대해서는 여러 레퍼런스가 있지만, 처음부터 다시 한번 쭉 정리 할 생각으로 블로그 포스트에 시리즈로 작성하려고 합니다.
 
 > [1. 서버 설정 및 Elasticsearch 설치](#)
 
@@ -94,7 +94,7 @@ sudo -i service elasticsearch stop
 
 ## 호스트명 변경
 
-호스트명을 변경하기 위해서는 `/etc/sysconfig/network` 파일의 `HOSTNAME=` 부분을 수정합니다. 나중에 설정 및 모니터링을 편하게 하기 위함이며 생성하는 각 인스턴스 별로 `HOSTNAME=es-master`, `HOSTNAME=es-data-1`, `HOSTNAME=es-data-2` 같이 각각 설정 해 줍니다.
+호스트명을 변경하기 위해서는 `/etc/sysconfig/network` 파일의 `HOSTNAME=` 부분을 수정합니다. 나중에 설정 및 모니터링을 편하게 하기 위함이며 생성하는 각 인스턴스 별로 `HOSTNAME=es-master`, `HOSTNAME=es-data-1`, `HOSTNAME=es-data-2` 등과 같이 설정 해 줍니다.
 호스트명을 변경 한 후에는 인스턴스를 재시작 해야 합니다.
 ```
 sudo reboot
@@ -122,4 +122,48 @@ es-master
 }
 ```
 
-## X-Pack 설치
+## Elasticsearch 설정
+
+이제 Elasticsearch의 설치가 완료 되었습니다. RPM 버전의 기본적인 설치 경로들은 아래와 같습니다.
+
+- 기본 프로그램 (**$ES_HOME**) : `/usr/share/elasticsearch`
+  - 실행 파일 : `bin/elasticsearch`
+  - 플러그인 : `plugins`
+- 설정 : `/etc/elasticsearch`
+  - `elasticsearch.yml`
+  - `jvm.options`
+  - `log4j2.properties`
+- 데이터 (**path.data**) : `/var/lib/elasticsearch`
+- 로그 (**path.logs**) : `/var/log/elasticsearch`
+
+데이터와 로그 파일의 경로는 `/etc/elasticsearch/elasticsearch.yml` 설정 파일에서 수정이 가능합니다.
+모든 경로에 접근하기 위해서는 기본적으로 root 권한을 필요로 합니다. 예를 들어 elasticsearch.yml 설정 파일을 vim 으로 편집하려고 하면 다음과 같이 실행해야 합니다.
+```
+sudo vim /etc/elasticsearch/elasticsearch.yml
+```
+
+Elasticsearch의 기본 클러스터명은 **elasticsearch** 로 되어 있습니다. Elasticsearch의 노드들은 클러스터명을 기준으로 바인딩이 되기 때문에 처음 설치가 끝나면 우선적으로 클러스터명을 바꿔 줘야 나중에 실수로 노드가 엉뚱한 클러스터에 바인딩 되는 것을 막을 수 있습니다. `elasticsearch.yml`설정 파일을 열고 먼저 클러스터명을 변경 해 줍니다.
+```
+cluster.name: es-demo
+```
+
+노드들도 나중에 구분하기 편하도록 노드명에 호스트 이름을 사용하도록 설정 해 줍니다.
+```
+node.name: ${HOSTNAME}
+```
+
+이제 elasticsearch 를 재시작하여 노드명과 클러스터명이 정상적으로 반영이 되었는지를 확인 해 봅니다.
+```
+[ ~]$ sudo service elasticsearch restart
+Stopping elasticsearch:                                    [  OK  ]
+Starting elasticsearch:                                    [  OK  ]
+[ ~]$ curl localhost:9200
+{
+  "name" : "es-master",
+  "cluster_name" : "es-demo",
+...
+}
+```
+
+이제 기본적인 Elasticsearch 실행에 대한 준비는 되었습니다.
+다음 포스트에서는 운영에서 사용하기 위한 네트워크 설정을 해 보도록 하겠습니다. Elasticsearch 노드는 네트워크 설정이 되어있지 않으면 개발 모드로 실행되어 localhost 에서만 접근이 가능하며 부트스트랩 체크를 하지 않습니다. 네트워크 설정을 실제 IP 주소로 변경하고 실행하게 되면 운영 모드로 인식을 하고 부트스트랩 체크를 하게 되며 여러가지 운영 설정 등을 바꿔줘야 합니다.
