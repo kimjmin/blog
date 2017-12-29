@@ -3,24 +3,25 @@ title: Elastic Cluster 구성 1
 tags:
   - Elastic
   - Elasticsearch
+  - Elastic Cluster Settings
 categories:
   - Elasticsearch
 subtitle: 서버 생성 및 Elasticsearch RPM 설치
 date: 2018-01-01
-header-img: "es-bg-architecture.png"
+header-img: "bg-linux-prompt.jpeg"
 ---
 
 이번에 필요에 의해 새로 Elastic Stack 클러스터를 구성하게 되었습니다. 구성 방법에 대해서는 여러 레퍼런스가 있지만, 처음부터 다시 한번 쭉 정리 할 생각으로 블로그 포스트에 시리즈로 작성하려고 합니다.
 
-> [1. 서버 설정 및 Elasticsearch 설치](#)
-
+> **1. 서버 생성 및 Elasticsearch RPM 설치**
+> [2. 세부 설정 및 플러그인 설치](/2018/01/2018-01-build-es-cluster-2)
 
 구성은 최대한 실제 서비스 되는 구성에 가깝게 설치 해 볼 예정입니다. 개략적인 컨셉 아키텍쳐는 다음과 같습니다.
 
 ![](es-demo-architecture.png)
 
 > 
-- 3개의 Data Only Node, 1개의 Master Only Node로 구성합니다.
+- 3개의 데이터 전용 노드, 1개의 마스터 전용 노드로 구성합니다.
 - Master Node가 설치된 서버에는 Kibana, Logstash 및 기타 프로그램들을 같이 설치합니다.
 - 마스터 노드만 HTTP REST API를 열고, Data Node 들은 Transport 통신만을 합니다.
 - Kibana, Logstash 및 기타 프로그램은 Master Node 와 REST로 통신합니다.
@@ -165,5 +166,5 @@ Starting elasticsearch:                                    [  OK  ]
 }
 ```
 
-이제 기본적인 Elasticsearch 실행에 대한 준비는 되었습니다.
-다음 포스트에서는 운영에서 사용하기 위한 네트워크 설정을 해 보도록 하겠습니다. Elasticsearch 노드는 네트워크 설정이 되어있지 않으면 개발 모드로 실행되어 localhost 에서만 접근이 가능하며 부트스트랩 체크를 하지 않습니다. 네트워크 설정을 실제 IP 주소로 변경하고 실행하게 되면 운영 모드로 인식을 하고 부트스트랩 체크를 하게 되며 여러가지 운영 설정 등을 바꿔줘야 합니다.
+이제 기본적인 Elasticsearch의 설치가 끝났습니다.
+다음 포스트에서는 운영에서 사용하기 위한 메모리, 네트워크 및 기타 세부 설정들을 해 보도록 하겠습니다. Elasticsearch 노드는 네트워크 설정이 되어있지 않으면 개발 모드로 실행되어 localhost 에서만 접근이 가능하며 부트스트랩 체크를 하지 않습니다. 네트워크 설정을 실제 IP 주소로 변경하고 실행하게 되면 운영 모드로 인식을 하고 부트스트랩 체크를 하게 되며 여러가지 운영 설정 등을 바꿔줘야 합니다.
