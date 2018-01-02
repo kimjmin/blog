@@ -14,7 +14,9 @@ header-img: "bg-linux-prompt.jpeg"
 이번에 필요에 의해 새로 Elastic Stack 클러스터를 구성하게 되었습니다. 구성 방법에 대해서는 여러 레퍼런스가 있지만, 처음부터 다시 한번 쭉 정리 할 생각으로 블로그 포스트에 시리즈로 작성하려고 합니다.
 
 > **1. 서버 생성 및 Elasticsearch RPM 설치**
-> [2. 세부 설정 및 플러그인 설치](/2018/01/2018-01-build-es-cluster-2)
+> [2. 메모리, 네트워크 설정 및 플러그인 설치](/2018/01/2018-01-build-es-cluster-2)
+> [3. 클러스터 구성 및 마스터, 데이터 노드 설정](/2018/01/2018-01-build-es-cluster-3)
+> [4. Kibana 설치 및 X-Pack Monitoring, Security 설정](/2018/01/2018-01-build-es-cluster-4)
 
 구성은 최대한 실제 서비스 되는 구성에 가깝게 설치 해 볼 예정입니다. 개략적인 컨셉 아키텍쳐는 다음과 같습니다.
 
@@ -95,7 +97,13 @@ sudo -i service elasticsearch stop
 
 ## 호스트명 변경
 
-호스트명을 변경하기 위해서는 `/etc/sysconfig/network` 파일의 `HOSTNAME=` 부분을 수정합니다. 나중에 설정 및 모니터링을 편하게 하기 위함이며 생성하는 각 인스턴스 별로 `HOSTNAME=es-master`, `HOSTNAME=es-data-1`, `HOSTNAME=es-data-2` 등과 같이 설정 해 줍니다.
+호스트명을 변경하기 위해서는 `/etc/sysconfig/network` 파일의 `HOSTNAME=` 부분을 수정합니다. 
+```
+sudo vim /etc/sysconfig/network
+HOSTNAME=es-master
+```
+
+나중에 설정 및 모니터링을 편하게 하기 위함이며 생성하는 각 인스턴스 별로 `HOSTNAME=es-master`, `HOSTNAME=es-data-1`, `HOSTNAME=es-data-2` 등과 같이 설정 해 줍니다.
 호스트명을 변경 한 후에는 인스턴스를 재시작 해야 합니다.
 ```
 sudo reboot

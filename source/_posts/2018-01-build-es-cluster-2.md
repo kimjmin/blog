@@ -11,10 +11,12 @@ date: 2018-01-02
 header-img: "bg-linux-prompt.jpeg"
 ---
 
-이번 포스트에서는 네트워크 설정 및 플러그인 설치에 대해서 이전 또는 다음 포스트는 아래에서 확인하세요.
+이번 포스트에서는 네트워크 설정 및 플러그인 설치에 대해서 다루도록 하도록 하겠습니다. 이전 또는 다음 포스트는 아래에서 확인하세요.
 
 > [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-setting-es-cluster-1)
-> **2. 세부 설정 및 플러그인 설치**
+> **2. 메모리, 네트워크 설정 및 플러그인 설치**
+> [3. 클러스터 구성 및 마스터, 데이터 노드 설정](/2018/01/2018-01-build-es-cluster-3)
+> [4. Kibana 설치 및 X-Pack Monitoring, Security 설정](/2018/01/2018-01-build-es-cluster-4)
 
 ## Java Heap 메모리 설정.
 
@@ -24,7 +26,7 @@ Java Heap 메모리는 `jvm.options` 파일에서 설정합니다.
 sudo vim /etc/elasticsearch/jvm.options
 ```
 
-마스터 노드는 4GB, 데이터 노드는 8GB로 각각 설정을 합니다.
+마스터 노드는 4GB, 데이터 노드는 8GB로 각각 설정을 할 예정입니다. 여기서는 우선 8GB로 설정 합니다.
 ```
 -Xms8g
 -Xmx8g
@@ -103,10 +105,13 @@ elasticsearch hard memlock unlimited
 ### Unicast 설정
 
 다른 노드들이 마스터 노드와 연결될 수 있도록 `discovery.zen.ping.unicast.hosts` 부분을 마스터노드의 ip 주소로 입력 해 줍니다. 네트워크 주소는 `ifconfig` 또는 `ip addr` 명령으로 확인합니다.
+
 ```
 discovery.zen.ping.unicast.hosts:
   - 192.168.1.10:9300
 ```
+
+위 예문에는 `192.168.1.10` 이라고 적었지만, 실제로 설치된 서버의 IP 주소를 적으면 됩니다.
 
 ### ⚠️ Split Brain 문제
 
@@ -116,12 +121,12 @@ discovery.zen.ping.unicast.hosts:
 
 마스터 후보 노드를 3개(또는 그 이상의 홀수)로 두는 경우에는 네트워크 단절로 인해 클러스터가 분리가 되면 마스터 후보가 2개인 클러스터만 실제로 동작하고 1개인 클러스터는 동작을 멈추게 됩니다. 그렇게 해서 다시 네트워크가 복구 되었을 때 활성 상태였던 클러스터 노드들의 업데이트 정보가 비활성 상태였던 클러스터 노드들로 자연스럽게 동기화가 될 수 있습니다.
 
-## X-Pack
+## X-Pack 설치
 
 X-Pack 설치에 대한 내용은 아래 도큐먼트를 참고해서 진행합니다.
 https://www.elastic.co/guide/en/elasticsearch/reference/current/installing-xpack-es.html
 
-### X-Pack 설치
+### X-Pack 플러그인 설치
 
 elasticsearch 가 설치된 디렉토리에서 `bin/elasticsearch-plugin install x-pack` 명령으로 설치가 가능합니다. X-Pack 그리고 대부분의 플러그인들은 모든 노드들에 동일하게 설치가 되어 있어야 합니다.
 
@@ -183,6 +188,11 @@ Changed password for user [elastic]
 [ ]$
 ```
 
+### SSL/TLS
+
+X-Pack Security는 노드간, 그리고 클러스터와 클라이언트 간의 통신을 암호화 하는 SSL/TLS 기능을 가지고 있습니다. 특히 elasticsearch 6.0 부터는 X-Pack Security를 사용하기 위해서는 SSL/TLS 설정을 반드시 활성화 해야 오류나 경고 메시지가 나타나지 않습니다.
+SSL/TLS 설정은 다음 포스트에서 클러스터의 모든 노드들의 생성이 끝난 뒤에 설정 하도록 하겠습니다.
+
 ## 한글 형태소 분석기 설치
 
 아래 블로그 포스트 또는 각 커뮤니티의 문서를 참고해서 설치하도록 합니다.
@@ -193,4 +203,5 @@ Changed password for user [elastic]
 [2017-12-29T07:18:31,240][INFO ][o.e.p.PluginsService     ] [kr-demo-master] loaded plugin [analysis-arirang]
 ```
 
-여기까지 Elasticsearch의 공통적인 설치 및 설정들이 완료되었습니다. 다음 포스트에서는 지금까지 만든 설정들을 복사해서 1개의 마스터 노드와 3개의 데이터 노드 시스템을 생성하고, 각 노드별로 구분되어야 할 환경들을 설정 해 보도록 하겠습니다.
+여기까지 Elasticsearch의 공통적인 설치 및 설정들이 완료되었습니다.
+다음 포스트에서는 지금까지 만든 설정들을 복사해서 1개의 마스터 노드와 3개의 데이터 노드 시스템을 생성하고, 각 노드별로 구분되어야 할 환경들을 설정 해 보도록 하겠습니다.
