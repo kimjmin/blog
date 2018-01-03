@@ -17,6 +17,7 @@ header-img: "bg-linux-prompt.jpeg"
 > [2. 메모리, 네트워크 설정 및 플러그인 설치](/2018/01/2018-01-build-es-cluster-2)
 > **3. 클러스터 구성 및 마스터, 데이터 노드 설정**
 > [4. Kibana 설치 및 X-Pack Monitoring, Security 설정](/2018/01/2018-01-build-es-cluster-4)
+> [5. NFS 구성 및 elasticsearch 추가 설정](/2018/01/2018-01-build-es-cluster-5)
 
 ## 데이터 노드 추가
 
