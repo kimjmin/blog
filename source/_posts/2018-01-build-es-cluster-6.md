@@ -278,7 +278,7 @@ xpack.security.audit.outputs: [ "index" ]
 
 Kibana의 Dev Tool 에서
 ```
-curl -XGET "http://172.31.27.193:9200/.security_audit_log-*/_search"
+curl -XGET "http://서버주소:9200/.security_audit_log-*/_search"
 ```
 로 확인이 가능합니다.
 
