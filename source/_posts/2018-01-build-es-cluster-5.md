@@ -4,7 +4,6 @@ tags:
   - Elastic
   - Elasticsearch
   - Elastic Cluster Settings
-  - X-Pack
 categories:
   - Elasticsearch
 subtitle: NFS 구성 및 elasticsearch 추가 설정
@@ -17,11 +16,14 @@ header-img: "bg-linux-prompt.jpeg"
 참고로 NFS 설정은 잘못하다가 설정이 꼬여버릴 수 있으니 주의하시고 설정을 원하지 않으면 다음 포스트로 넘어가시기 바랍니다.
 (저도 설정 하다가 네트워크 디렉토리 퍼미션 설정 등 몇가지가 꼬여서 싹 밀고 처음부터 새로 설치했습니다.) 🤯
 
+이전 또는 이후 내용들은 아래 포스트에서 확인하세요.
+
 > [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-setting-es-cluster-1)
 > [2. 메모리, 네트워크 설정 및 플러그인 설치](/2018/01/2018-01-build-es-cluster-2)
 > [3. 클러스터 구성 및 마스터, 데이터 노드 설정](/2018/01/2018-01-build-es-cluster-3)
 > [4. Kibana 설치 및 X-Pack Monitoring, Security 설정](/2018/01/2018-01-build-es-cluster-4)
 > **5. NFS 구성 및 elasticsearch 추가 설정**
+> [6. X-Pack Security를 이용한 SSL 및 TLS 설정](/2018/01/2018-01-build-es-cluster-6)
 
 덧붙여 새벽에 페이스북에 달린 질문을 보고 잠시 고민이 되었습니다. 그리고 구성을 다음과 같이 데이터 노드 3개(마스터 겸임)와 코디네이트 노드(데이터를 저장하지 않고 애플리케이션과 통신만 담당하는, 클라이언트 노드 라고 부르기도 합니다) 노드로 바꾸기로 결정했습니다. 새로운 아키텍쳐의 구성은 다음과 같습니다.
 
