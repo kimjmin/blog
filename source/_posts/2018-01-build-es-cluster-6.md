@@ -12,12 +12,12 @@ date: 2018-01-06
 header-img: "bg-linux-prompt.jpeg"
 ---
 
-오늘은 X-Pack Security를 이용한 보안 설정을 하도록 하겠습니다. 이전 또는 이후 내용들은 아래 포스트에서 확인하세요.
+이번 포스트에서는 X-Pack Security를 이용한 보안 설정을 하도록 하겠습니다. 이전 또는 이후 내용들은 아래 포스트에서 확인하세요.
 
 > [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-setting-es-cluster-1)
 > [2. 메모리, 네트워크 설정 및 플러그인 설치](/2018/01/2018-01-build-es-cluster-2)
 > [3. 클러스터 구성 및 마스터, 데이터 노드 설정](/2018/01/2018-01-build-es-cluster-3)
-> [4. Kibana 설치 및 X-Pack Monitoring, Security 설정](/2018/01/2018-01-build-es-cluster-4)
+> [4. Kibana 설치 및 X-Pack Monitoring 확인](/2018/01/2018-01-build-es-cluster-4)
 > [5. NFS 구성 및 elasticsearch 추가 설정](/2018/01/2018-01-build-es-cluster-5)
 > **6. X-Pack Security를 이용한 SSL 및 TLS 설정**
 
@@ -32,7 +32,7 @@ header-img: "bg-linux-prompt.jpeg"
 - [Reporting](https://www.elastic.co/kr/products/x-pack/reporting): Kibana 대시보드를 PDF로 내려받거나 데이터를 CSV 파일로 저장합니다.
 - [Machine Learning](https://www.elastic.co/kr/products/x-pack/machine-learning): 시계열 데이터 기반의 실시간 이상징후 탐지 기능을 제공합니다.
 
-다른 모듈들에 대해서는 Elastic 공식 홈페이지 (https://www.elastic.co)를 참고하시기 바랍니다.
+다른 모듈들에 대해서는 각 제목에 링크된 공식 홈페이지 내용을 참고하시기 바랍니다.
 
 오늘은 작업 할 내용들은 다음과 같습니다.
 - Elasticsearch 노드들 간의 통신에 TLS를 설정 하고, Elasticsearch와 다른 클라이언트 프로그램들 간에는 그냥 http로 두겠습니다.
@@ -263,7 +263,7 @@ https://www.elastic.co/guide/en/x-pack/current/auditing.html
 1. elasticsearch 시스템 로그 파일에 기록
 2. elasticsearch 인덱스 안에 도큐먼트로 색인
 
-저희는 2번째 elasticsearch 인덱스 안에 기록하도록 하겠습니다. `elasticsearcy.yml` 파일을 열고 
+저희는 2번째 방법처럼 elasticsearch 인덱스 안에 기록하도록 하겠습니다. `elasticsearcy.yml` 파일을 열고 
 ```
 sudo vim /etc/elasticsearch/elasticsearch.yml
 ```

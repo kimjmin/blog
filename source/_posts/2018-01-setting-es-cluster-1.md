@@ -16,7 +16,7 @@ header-img: "bg-linux-prompt.jpeg"
 > **1. 서버 생성 및 Elasticsearch RPM 설치**
 > [2. 메모리, 네트워크 설정 및 플러그인 설치](/2018/01/2018-01-build-es-cluster-2)
 > [3. 클러스터 구성 및 마스터, 데이터 노드 설정](/2018/01/2018-01-build-es-cluster-3)
-> [4. Kibana 설치 및 X-Pack Monitoring, Security 설정](/2018/01/2018-01-build-es-cluster-4)
+> [4. Kibana 설치 및 X-Pack Monitoring 확인](/2018/01/2018-01-build-es-cluster-4)
 > [5. NFS 구성 및 elasticsearch 추가 설정](/2018/01/2018-01-build-es-cluster-5)
 > [6. X-Pack Security를 이용한 SSL 및 TLS 설정](/2018/01/2018-01-build-es-cluster-6)
 
@@ -39,6 +39,13 @@ AWS 에서 EC2 인스턴스를 생성하도록 합니다. 인스턴스 생성은
 - m4.xlarge: 4 vCPU / 16GB
 - OS: Amazon Linux AMI 2017.09.1
 - EBS: 200GB
+
+### 시간대 설정
+
+서버의 초기 시간 설정이 UTP로 되어 있는데, 대한민국 서울 시간으로 변경 해 줍니다.
+```
+sudo cp -p /usr/share/zoneinfo/Asia/Seoul /etc/localtime
+```
 
 ### Java 업그레이드
 

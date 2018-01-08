@@ -12,12 +12,12 @@ date: 2018-01-04
 header-img: "bg-linux-prompt.jpeg"
 ---
 
-이번 포스트에서는 Kibana 설치 및 X-Pack Monitoring, Security 설정에 대해서 다루도록 하겠습니다. 이전 또는 이후 내용들은 아래 포스트에서 확인하세요.
+이번 포스트에서는 Kibana 설치 및 X-Pack 설치를 하고 Monitoring을 통한 클러스터 상태를 확인 해 보도록 하겠습니다. 이전 또는 이후 내용들은 아래 포스트에서 확인하세요.
 
 > [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-setting-es-cluster-1)
 > [2. 메모리, 네트워크 설정 및 플러그인 설치](/2018/01/2018-01-build-es-cluster-2)
 > [3. 클러스터 구성 및 마스터, 데이터 노드 설정](/2018/01/2018-01-build-es-cluster-3)
-> **4. Kibana 설치 및 X-Pack Monitoring, Security 설정**
+> **4. Kibana 설치 및 X-Pack Monitoring 확인**
 > [5. NFS 구성 및 elasticsearch 추가 설정](/2018/01/2018-01-build-es-cluster-5)
 > [6. X-Pack Security를 이용한 SSL 및 TLS 설정](/2018/01/2018-01-build-es-cluster-6)
 
