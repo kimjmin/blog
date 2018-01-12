@@ -21,6 +21,7 @@ header-img: "bg-linux-prompt.jpeg"
 > [5. NFS 구성 및 elasticsearch 추가 설정](/2018/01/2018-01-build-es-cluster-5)
 > [6. X-Pack Security를 이용한 SSL 및 TLS 설정](/2018/01/2018-01-build-es-cluster-6)
 > **7. X-Pack License 적용 및 사용자 생성**
+> [8. Logstash 설치 및 Elasticsearch 기본 템플릿 설정](/2018/01/2018-01-build-es-cluster-8)
 
 ## X-Pack License 적용
 
@@ -85,3 +86,13 @@ X-Pack 이 설치되면 Kibana의 Management 메뉴에 Security 를 설정하는
 
 `Roles` 항목 에서 이 사용자에게 어떤 권한을 부여할지 입력합니다. 권한은 1개 이상이 될 수 있으며 ***여러개의 권한을 부여하는 경우 부여된 모든 권한에 대해 접근 가능 범위가 적용이 됩니다***. 다시말해 OR 조건으로 권한이 부여되며 어떤 유저가 `superuser` 그리고 `new_user` 의 권한을 부여받으면 이 유저는 `superuser` 권한이 가진 모든 권한을 헹사할 수 있습니다. 그렇기 때문에 적용할 권한은 최소한, 겹치는 영역 없이 하는것이 (가능하면 1 사용자 : 1 권한) 바람직합니다.
 
+다음 포스트에서는 Elastic Cluster 구성 시리즈의 마지막으로 Logstash 설치 및 Elasticsearch 기본 템플릿 설정에 대해 살펴보도록 하겠습니다.
+
+> [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-setting-es-cluster-1)
+> [2. 메모리, 네트워크 설정 및 플러그인 설치](/2018/01/2018-01-build-es-cluster-2)
+> [3. 클러스터 구성 및 마스터, 데이터 노드 설정](/2018/01/2018-01-build-es-cluster-3)
+> [4. Kibana 설치 및 X-Pack Monitoring 확인](/2018/01/2018-01-build-es-cluster-4)
+> [5. NFS 구성 및 elasticsearch 추가 설정](/2018/01/2018-01-build-es-cluster-5)
+> [6. X-Pack Security를 이용한 SSL 및 TLS 설정](/2018/01/2018-01-build-es-cluster-6)
+> **7. X-Pack License 적용 및 사용자 생성**
+> [8. Logstash 설치 및 Elasticsearch 기본 템플릿 설정](/2018/01/2018-01-build-es-cluster-8)

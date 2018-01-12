@@ -19,6 +19,8 @@ header-img: "bg-linux-prompt.jpeg"
 > [4. Kibana 설치 및 X-Pack Monitoring 확인](/2018/01/2018-01-build-es-cluster-4)
 > [5. NFS 구성 및 elasticsearch 추가 설정](/2018/01/2018-01-build-es-cluster-5)
 > [6. X-Pack Security를 이용한 SSL 및 TLS 설정](/2018/01/2018-01-build-es-cluster-6)
+> [7. X-Pack License 적용 및 사용자 생성](/2018/01/2018-01-build-es-cluster-7)
+> [8. Logstash 설치 및 Elasticsearch 기본 템플릿 설정](/2018/01/2018-01-build-es-cluster-8)
 
 ## Java Heap 메모리 설정.
 
@@ -207,3 +209,12 @@ SSL/TLS 설정은 다음 포스트에서 클러스터의 모든 노드들의 생
 
 여기까지 Elasticsearch의 공통적인 설치 및 설정들이 완료되었습니다.
 다음 포스트에서는 지금까지 만든 설정들을 복사해서 1개의 마스터 노드와 3개의 데이터 노드 시스템을 생성하고, 각 노드별로 구분되어야 할 환경들을 설정 해 보도록 하겠습니다.
+
+> [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-setting-es-cluster-1)
+> **2. 메모리, 네트워크 설정 및 플러그인 설치**
+> [3. 클러스터 구성 및 마스터, 데이터 노드 설정](/2018/01/2018-01-build-es-cluster-3)
+> [4. Kibana 설치 및 X-Pack Monitoring 확인](/2018/01/2018-01-build-es-cluster-4)
+> [5. NFS 구성 및 elasticsearch 추가 설정](/2018/01/2018-01-build-es-cluster-5)
+> [6. X-Pack Security를 이용한 SSL 및 TLS 설정](/2018/01/2018-01-build-es-cluster-6)
+> [7. X-Pack License 적용 및 사용자 생성](/2018/01/2018-01-build-es-cluster-7)
+> [8. Logstash 설치 및 Elasticsearch 기본 템플릿 설정](/2018/01/2018-01-build-es-cluster-8)

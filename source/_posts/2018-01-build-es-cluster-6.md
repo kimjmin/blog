@@ -20,6 +20,8 @@ header-img: "bg-linux-prompt.jpeg"
 > [4. Kibana 설치 및 X-Pack Monitoring 확인](/2018/01/2018-01-build-es-cluster-4)
 > [5. NFS 구성 및 elasticsearch 추가 설정](/2018/01/2018-01-build-es-cluster-5)
 > **6. X-Pack Security를 이용한 SSL 및 TLS 설정**
+> [7. X-Pack License 적용 및 사용자 생성](/2018/01/2018-01-build-es-cluster-7)
+> [8. Logstash 설치 및 Elasticsearch 기본 템플릿 설정](/2018/01/2018-01-build-es-cluster-8)
 
 참고로 X-Pack은 Elastic에서 배포하는 공식 상용 플러그인이며 다음과 같은 모듈들을 가지고 있습니다.
 
@@ -284,4 +286,13 @@ curl -XGET "http://서버주소:9200/.security_audit_log-*/_search"
 
 그런데 감사 로그는 기본적으로 모든 접속에 대한 이력을 쌓기 때문에 데이터가 쌓이는 속도가 어마무시 합니다. 가만히 있어도 .monitoring 이나 .watcher-history 같은 데이터와 같이 쌓이기 때문에 세밀하게 접속 정보를 모니터링 할게 아니라면 쌓이는데 필터링을 해 주는 것이 좋습니다.
 
-오늘 포스트는 여기까지 해서 마치도록 하고 감사 로그의 추가적인 설정은 다음에 기회가 되면 또 다루어 보도록 하겠습니다.
+오늘 포스트는 여기까지 해서 마치도록 하고 감사 로그의 추가적인 설정은 다음에 기회가 되면 또 다루어 보도록 하겠습니다. 다음 포스트에서는 X-Pack License 적용 및 사용자 생성에 대해 다루도록 하겠습니다.
+
+> [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-setting-es-cluster-1)
+> [2. 메모리, 네트워크 설정 및 플러그인 설치](/2018/01/2018-01-build-es-cluster-2)
+> [3. 클러스터 구성 및 마스터, 데이터 노드 설정](/2018/01/2018-01-build-es-cluster-3)
+> [4. Kibana 설치 및 X-Pack Monitoring 확인](/2018/01/2018-01-build-es-cluster-4)
+> [5. NFS 구성 및 elasticsearch 추가 설정](/2018/01/2018-01-build-es-cluster-5)
+> **6. X-Pack Security를 이용한 SSL 및 TLS 설정**
+> [7. X-Pack License 적용 및 사용자 생성](/2018/01/2018-01-build-es-cluster-7)
+> [8. Logstash 설치 및 Elasticsearch 기본 템플릿 설정](/2018/01/2018-01-build-es-cluster-8)

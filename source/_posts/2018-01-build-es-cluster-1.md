@@ -19,6 +19,8 @@ header-img: "bg-linux-prompt.jpeg"
 > [4. Kibana 설치 및 X-Pack Monitoring 확인](/2018/01/2018-01-build-es-cluster-4)
 > [5. NFS 구성 및 elasticsearch 추가 설정](/2018/01/2018-01-build-es-cluster-5)
 > [6. X-Pack Security를 이용한 SSL 및 TLS 설정](/2018/01/2018-01-build-es-cluster-6)
+> [7. X-Pack License 적용 및 사용자 생성](/2018/01/2018-01-build-es-cluster-7)
+> [8. Logstash 설치 및 Elasticsearch 기본 템플릿 설정](/2018/01/2018-01-build-es-cluster-8)
 
 구성은 최대한 실제 서비스 되는 구성에 가깝게 설치 해 볼 예정입니다. 개략적인 컨셉 아키텍쳐는 다음과 같습니다.
 
@@ -183,5 +185,14 @@ Starting elasticsearch:                                    [  OK  ]
 }
 ```
 
-이제 기본적인 Elasticsearch의 설치가 끝났습니다.
+이제 Elasticsearch의 기본 설치가 끝났습니다.
 다음 포스트에서는 운영에서 사용하기 위한 메모리, 네트워크 및 기타 세부 설정들을 해 보도록 하겠습니다. Elasticsearch 노드는 네트워크 설정이 되어있지 않으면 개발 모드로 실행되어 localhost 에서만 접근이 가능하며 부트스트랩 체크를 하지 않습니다. 네트워크 설정을 실제 IP 주소로 변경하고 실행하게 되면 운영 모드로 인식을 하고 부트스트랩 체크를 하게 되며 여러가지 운영 설정 등을 바꿔줘야 합니다.
+
+> **1. 서버 생성 및 Elasticsearch RPM 설치**
+> [2. 메모리, 네트워크 설정 및 플러그인 설치](/2018/01/2018-01-build-es-cluster-2)
+> [3. 클러스터 구성 및 마스터, 데이터 노드 설정](/2018/01/2018-01-build-es-cluster-3)
+> [4. Kibana 설치 및 X-Pack Monitoring 확인](/2018/01/2018-01-build-es-cluster-4)
+> [5. NFS 구성 및 elasticsearch 추가 설정](/2018/01/2018-01-build-es-cluster-5)
+> [6. X-Pack Security를 이용한 SSL 및 TLS 설정](/2018/01/2018-01-build-es-cluster-6)
+> [7. X-Pack License 적용 및 사용자 생성](/2018/01/2018-01-build-es-cluster-7)
+> [8. Logstash 설치 및 Elasticsearch 기본 템플릿 설정](/2018/01/2018-01-build-es-cluster-8)
