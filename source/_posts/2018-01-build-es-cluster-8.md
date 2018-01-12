@@ -15,7 +15,7 @@ header-img: "bg-linux-prompt.jpeg"
 
 오늘은 Logstash 설치 및 Elasticsearch 기본 템플릿 설정을 하도록 하겠습니다. 이전 또는 이후 내용들은 아래 포스트에서 확인하세요.
 
-> [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-setting-es-cluster-1)
+> [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-build-es-cluster-1)
 > [2. 메모리, 네트워크 설정 및 플러그인 설치](/2018/01/2018-01-build-es-cluster-2)
 > [3. 클러스터 구성 및 마스터, 데이터 노드 설정](/2018/01/2018-01-build-es-cluster-3)
 > [4. Kibana 설치 및 X-Pack Monitoring 확인](/2018/01/2018-01-build-es-cluster-4)
@@ -199,7 +199,7 @@ PUT _template/basic
 기본 클러스터 구성에 대한 내용은 지금까지의 블로그 포스트 시리즈로 설명을 드렸습니다.
 앞으로 유용한 설정이나 운영 기법 등은 기회가 되는 대로 별도 개별 포스트 또는 새로운 시리즈로 추가하도록 하겠습니다.
 
-> [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-setting-es-cluster-1)
+> [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-build-es-cluster-1)
 > [2. 메모리, 네트워크 설정 및 플러그인 설치](/2018/01/2018-01-build-es-cluster-2)
 > [3. 클러스터 구성 및 마스터, 데이터 노드 설정](/2018/01/2018-01-build-es-cluster-3)
 > [4. Kibana 설치 및 X-Pack Monitoring 확인](/2018/01/2018-01-build-es-cluster-4)

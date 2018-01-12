@@ -14,7 +14,7 @@ header-img: "bg-linux-prompt.jpeg"
 
 이번 포스트에서는 Kibana 설치 및 X-Pack 설치를 하고 Monitoring을 통한 클러스터 상태를 확인 해 보도록 하겠습니다. 이전 또는 이후 내용들은 아래 포스트에서 확인하세요.
 
-> [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-setting-es-cluster-1)
+> [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-build-es-cluster-1)
 > [2. 메모리, 네트워크 설정 및 플러그인 설치](/2018/01/2018-01-build-es-cluster-2)
 > [3. 클러스터 구성 및 마스터, 데이터 노드 설정](/2018/01/2018-01-build-es-cluster-3)
 > **4. Kibana 설치 및 X-Pack Monitoring 확인**
@@ -64,7 +64,7 @@ sudo -i service kibana stop
 
 ## Kibana 설정
 
-Kibana RPM 버전의 기본적인 설치 경로들은 아래와 같습니다. 대부분의 설정이 [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-setting-es-cluster-1/#Elasticsearch-설치) 포스트에서 다루었던 Elasticsearch 설정과 유사합니다.
+Kibana RPM 버전의 기본적인 설치 경로들은 아래와 같습니다. 대부분의 설정이 [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-build-es-cluster-1/#Elasticsearch-설치) 포스트에서 다루었던 Elasticsearch 설정과 유사합니다.
 
 - 기본 프로그램 (**$KIBANA_HOME**) : `/usr/share/kibana`
   - 실행 파일 : `bin/kibana`
@@ -166,7 +166,7 @@ kibana started
 지금까지 Kibana 설치 및 X-Pack Monitoring 사용에 대해 살펴 보았습니다.
 다음 포스트에서는 X-Pack Security 설정을 통해 클라이언트 및 노드들 간의 통신을 암호화 하는 방법에 대해 살펴보도록 하겠습니다.
 
-> [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-setting-es-cluster-1)
+> [1. 서버 생성 및 Elasticsearch RPM 설치](/2018/01/2018-01-build-es-cluster-1)
 > [2. 메모리, 네트워크 설정 및 플러그인 설치](/2018/01/2018-01-build-es-cluster-2)
 > [3. 클러스터 구성 및 마스터, 데이터 노드 설정](/2018/01/2018-01-build-es-cluster-3)
 > **4. Kibana 설치 및 X-Pack Monitoring 확인**
