@@ -24,6 +24,7 @@ layout: layout
         <% if(config.sidebar == false) { %>
 <!-- NO SIDEBAR -->
     <!-- Post Container -->
+
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
                 <%- body %>
             </div>
@@ -33,6 +34,8 @@ layout: layout
                 col-md-10 col-md-offset-1
                 sidebar-container">
 
+                <%- partial('_custom/swiftype-search') %>
+                <br/>
                 <!-- Featured Tags -->
                 <% if(config['featured-tags']) { %>
                 <section>
@@ -83,6 +86,9 @@ layout: layout
                 col-xs-12
                 sidebar-container
             ">
+
+                <%- partial('_custom/swiftype-search') %>
+                <br/>
                 <!-- Featured Tags -->
                 <% if(config['featured-tags']) { %>
                 <section>
