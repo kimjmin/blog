@@ -121,7 +121,7 @@ sudo reboot
 ```
 
 인스턴스 재 시작 후에 호스트명이 제대로 바뀌었는지, elasticsearch 서비스는 자동으로 잘 실행 되는지 한번 확인 해 봅니다.
-```
+```shell
 [ ~]$ hostname
 es-master
 [ ~]$ curl localhost:9200
@@ -163,17 +163,17 @@ sudo vim /etc/elasticsearch/elasticsearch.yml
 ```
 
 Elasticsearch의 기본 클러스터명은 **elasticsearch** 로 되어 있습니다. Elasticsearch의 노드들은 클러스터명을 기준으로 바인딩이 되기 때문에 처음 설치가 끝나면 우선적으로 클러스터명을 바꿔 줘야 나중에 실수로 노드가 엉뚱한 클러스터에 바인딩 되는 것을 막을 수 있습니다. `elasticsearch.yml`설정 파일을 열고 먼저 클러스터명을 변경 해 줍니다.
-```
+```yml
 cluster.name: es-demo
 ```
 
 노드들도 나중에 구분하기 편하도록 노드명에 호스트 이름을 사용하도록 설정 해 줍니다.
-```
+```yml
 node.name: ${HOSTNAME}
 ```
 
 이제 elasticsearch 를 재시작하여 노드명과 클러스터명이 정상적으로 반영이 되었는지를 확인 해 봅니다.
-```
+```shell
 [ ~]$ sudo service elasticsearch restart
 Stopping elasticsearch:                                    [  OK  ]
 Starting elasticsearch:                                    [  OK  ]

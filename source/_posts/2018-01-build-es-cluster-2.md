@@ -52,7 +52,7 @@ sudo vim /etc/elasticsearch/elasticsearch.yml
 
 보통은 `network.host: 192.168.0.1` 과 같은 형식으로 IP 주소를 직접 입력해도 되지만, 더 간편하게 `_local_`, `_site_`, `_global_` 같은 값 들을 이용할 수도 있습니다. 저희 서버는 아래와 같이 설정하였습니다.
 
-```
+```yml
 network.host: _site_
 ```
 
@@ -69,7 +69,7 @@ https://www.elastic.co/guide/en/elasticsearch/reference/6.1/important-settings.h
 
 `elasticsearch.yml` 설정 파일에서 `bootstrap.memory_lock` 을 활성화 합니다.
 
-```
+```yml
 bootstrap.memory_lock: true
 ```
 

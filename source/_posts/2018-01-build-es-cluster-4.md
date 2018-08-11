@@ -123,17 +123,17 @@ sudo vim /etc/kibana/kibana.yml
 
 먼저 Kibana 는 기본적으로 localhost:9200 을 통해 elasticsearch에 접근하도록 되어 있습니다. 저희는 앞에서 elasticsearch의 `network.host`를 실제 IP 주소로 수정했기 때문에 Kibana 역시 실제 IP 주소로 elasticsearch를 찾도록 `elasticsearch.url` 설정을 실제 IP 주소로 설정 해 주어야 합니다.
 
-```
+```yml
 elasticsearch.url: "http://192.168.0.10:9200"
 ```
 
 그리고 외부에서 접근하기 위해서는 `server.host` 도 실제 IP 주소로 수정해야 합니다.
-```
+```yml
 server.host: "192.168.0.10"
 ```
 
 그리고 X-Pack Security를 설치했기 때문에 Elasticsearch 에 접속을 위한 kibana 계정의 아이디와 패스워드도 입력합니다.
-```
+```yml
 elasticsearch.username: "kibana"
 elasticsearch.password: "changeme"
 ```
