@@ -70,9 +70,9 @@ interface -> install search 메뉴로 들어가면 웹페이지에 추가할 수
 
 ![](012.png)
 
-지금까지의 과정을 비디오로 녹화했습니다. 아래 영상을 보시면 Swiftype 을 이용해서 이 웹 페이지에 검색 기능을 추가하는 과정을 처음부터 설명합니다.
+지금까지의 과정을 비디오로 녹화했습니다. 아래 페이지에 가셔서 정보를 입력 하시고 submit를 누르시면 영상을 보실 수 있습니다. Swiftype 을 이용해서 이 웹 페이지에 검색 기능을 추가하는 과정을 처음부터 설명합니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_fJ-OCdXGR8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+https://www.elastic.co/kr/videos/swiftype-site-search-introduction
 
 
 > 다만, 저도 14일간 트라이얼 버전을 사용하고 있기 때문에 4월 17일 이후에는 검색 기능이 동작을 안 할 수도 있습니다. 🤓
