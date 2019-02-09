@@ -95,7 +95,7 @@ Elastic 사에서는 SaaS 형태의 Elastic Cluster 클라우드 서비스를 �
 
 ![](es-cloud-login.png) ![](es-cloud-1.png) ![](es-cloud-2.png) ![](es-cloud-3.png) ![](es-cloud-4.png)
 
-Elastict 사에서는 기존의 Gold / Platinum 기술지원 구독을 구매한 고객에게 **무료로 Elastic Cloud에 모니터링 전용 클러스터를 제공**하고 있습니다. 모니터링 클러스터를 사용하면 모니터링 데이터 저장 공간을 아낄 수 있고 문제가 생겼을 경우 Elastic의 기술지원 엔지니어들이 모니터링 클러스터에서 직접 문제의 확인이 가능하기 때문에 더욱 효과적인 기술지원이 가능한 장점이 있습니다.
+Elastict 사에서는 기존의 Gold / Platinum 기술지원 구독을 구매한 고객에게 **무료로 Elastic Cloud에 모니터링 전용 클러스터를 제공**하고 있습니다. 관련된 내용은 https://www.elastic.co/blog/introducing-the-elastic-stack-monitoring-service 에서 확인이 가능합니다. 모니터링 클러스터를 사용하면 모니터링 데이터 저장 공간을 아낄 수 있고 문제가 생겼을 경우 Elastic의 기술지원 엔지니어들이 모니터링 클러스터에서 직접 문제의 확인이 가능하기 때문에 더욱 효과적인 기술지원이 가능한 장점이 있습니다.
 
 클러스터를 만들고 나면 Elastic Cloud의 관리 화면에서 elasticsearch 및 kibana의 엔드포인트 주소를 확인할 수 있습니다.
 
