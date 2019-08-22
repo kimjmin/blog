@@ -3,6 +3,7 @@ title: 2017 파이콘 부스 운영기
 tags:
   - PyCon
   - Conference
+  - 파이콘
 subtitle: PyCon Seoul 2017 행사 Elastic 부스 운영기
 header-img: IMG_5559.JPG
 categories:

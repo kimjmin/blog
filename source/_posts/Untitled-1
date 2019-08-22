@@ -1,0 +1,27 @@
+export SERVICE_NAME="logstash"
+export SERVICE_DESCRIPTION="logstash"
+export ES_HOST="kr-demo-coordinate:9200"
+export ES_USER="elastic"
+export ES_PASSWORD="rlawlsdud"
+export LS_ADMIN_USER="logstash_admin"
+export LS_PASSWORD="rlawlsdud"
+export KJM_BUCKET="kimjmin.net.logs"
+export KJM_ACCESS_KEY_ID="AKIAIWPMDRW2VBD63TWQ"
+export KJM_SECRET_ACCESS_KEY="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"
+export FB_ACCESS_TOKEN="EAACwpZCFGzI0BABQsyVZBmcq58wOtXdOZBG2mauhUPT3j8mX2kZAxqPoqoBX8hosNFbOi5fWYTqsCCIb7MvZCFTnR0KY3lWzxZA9ZBJSdBC989gWe4pf9mE8pgHMGZBSugZCuxwTRC6lSz5rCeKr39W5iyJrs4rUK28AVt2g3nSbDvAZDZD"
+
+docker run --rm -it \
+
+docker run --name logstash \
+-e SERVICE_NAME="kr-demo-logstash" \
+-e SERVICE_DESCRIPTION="kr-demo-logstash" \
+-e ES_HOST="kr-demo-coordinate:9200" \
+-e ES_USER="elastic" \
+-e ES_PASSWORD="rlawlsdud" \
+-e LS_ADMIN_USER="logstash_admin" \
+-e LS_PASSWORD="rlawlsdud" \
+-e KJM_BUCKET="kimjmin.net.logs" \
+-e KJM_ACCESS_KEY_ID="AKIAIWPMDRW2VBD63TWQ" \
+-e KJM_SECRET_ACCESS_KEY="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" \
+-e FB_ACCESS_TOKEN="EAACwpZCFGzI0BABQsyVZBmcq58wOtXdOZBG2mauhUPT3j8mX2kZAxqPoqoBX8hosNFbOi5fWYTqsCCIb7MvZCFTnR0KY3lWzxZA9ZBJSdBC989gWe4pf9mE8pgHMGZBSugZCuxwTRC6lSz5rCeKr39W5iyJrs4rUK28AVt2g3nSbDvAZDZD" \
+-v /home/jongmin_kim/config/logstash:/usr/share/logstash/config/ docker.elastic.co/logstash/logstash:7.0.0

@@ -3,6 +3,7 @@ title: PyConAPAC 2016 부스 운영기
 tags:
   - PyConAPAC
   - Conference
+  - 파이콘
 subtitle: PyConAPAC 2016 파이콘 부스 운영기
 header-img: IMG_7208.JPG
 categories:

@@ -43,9 +43,11 @@ Elastic Stack은 5.0 부터 ELKB 제품들의 버전을 모두 일치시키면�
 
 ### [Elastic Stack 7.0](https://www.elastic.co/blog/elastic-stack-7-0-0-released)
 
-그리고 2014년 4월 7.0 버전이 출시되었습니다. 7.0 출시는 이전의 5.0, 6.0 출시 때와 비교하면 얌전하게 출시된 것 같습니다. 예전에는 메이져 버전이 출시되면 홈페이지도 전면적으로 개편하고 라이브 출시 행사도 하고 했었는데 말이죠. 7.0 에서 반영된 주요 기능들은 다음과 같습니다. 여느 메이져 버전때와 마찬가지로 7.0 에서는 기본적인 성능과 안전성 향상에 주요 포인트를 두고 있습니다. 
+![https://www.elastic.co/blog/elastic-stack-7-0-0-released](illustration-7point0-launch-01.svg)
 
-#### [Elasticsearch](https://www.elastic.co/blog/elasticsearch-7-0-0-released)
+그리고 2019년 4월 7.0 버전이 출시되었습니다. 7.0 출시는 이전의 5.0, 6.0 출시 때와 비교하면 얌전하게 출시된 것 같습니다. 예전에는 메이져 버전이 출시되면 홈페이지도 전면적으로 개편하고 라이브 출시 행사도 하고 했었는데 말이죠. 7.0 에서 반영된 주요 기능들은 다음과 같습니다. 여느 메이져 버전때와 마찬가지로 7.0 에서는 기본적인 성능과 안전성 향상에 주요 포인트를 두고 있습니다.
+
+##### [Elasticsearch](https://www.elastic.co/blog/elasticsearch-7-0-0-released)
 - Java High-Level Rest Client의 모든 기능이 완성되었습니다. 8.0 에서 transport client 는 제거됩니다.
 - Adaptive Replica Selection 이 7.0 부터 디폴트로 됩니다. Replica가 여러개가 있으면 더 빠른 Replica를 능동적으로 찾아 쿼리합니다.
 - Cross Cluster Search를 할 때 여러 원격 클러스터를 통합 검색할 때 라운드 트립을 최소화 시켜 성능을 향상시킵니다.
@@ -55,14 +57,20 @@ Elastic Stack은 5.0 부터 ELKB 제품들의 버전을 모두 일치시키면�
 - 디폴트 Primary Shard 개수가 5 에서 1로 변경됩니다.
 - Open JDK 가 기본 번들로 포함되어 Java를 따로 설치하지 않아도 실행이 됩니다.
 
-#### [Kibana](https://www.elastic.co/blog/kibana-7-0-0-released)
+> 기본 설정 중에서 특히 중요한 디스커버리 설정하는 부분이 바뀌었습니다. 예전처럼 `discovery.zen.ping.unicast.hosts:` 로 하시면 안되고요 `discovery.seed_hosts:` 로 설정 해야 합니다. `discovery.zen.minimum_master_nodes` 설정도 없어지고 대신 `cluster.initial_master_nodes:` 설정에 있는 master eligible nodes 들 중에서 과반수 이상이 살아있어야 클러스터가 정상적으로 실행되도록 변경되었습니다. 자세한 내용은 도큐먼트를 참고하세요.
+https://www.elastic.co/guide/en/elasticsearch/reference/7.0/discovery-settings.html
+
+##### [Kibana](https://www.elastic.co/blog/kibana-7-0-0-released)
+
+![](dark-mode.gif)
+
 - Kibana에 새로운 UI 템플릿 셋트가 적용되었습니다.
 - 다크 테마가 추가되었습니다.
-- 대시보드가 반응형이 되어 모바일 화면에서도 잘 보입니다.
+- 대시보드에 반응형 디자인을 적용해서 되어 모바일 화면에서도 잘 보입니다.
 - Kibana Query Language가 디폴트로 적용됩니다.
 - 확장된 Time Picker가 적용됩니다.
   
-#### REST API 변경
+##### API 변경
 
 사실 추가된 기능들 보다 신경 쓰이는 것들은 기존에 쓰던 방식의 API의 변경 입니다. API 변경에 대한 토론은 [해당 깃헙 이슈](https://github.com/elastic/elasticsearch/issues/15613#issuecomment-239435920) 에서 보실 수 있습니다.
 
@@ -79,9 +87,9 @@ Elastic Stack은 5.0 부터 ELKB 제품들의 버전을 모두 일치시키면�
 
 | Document API | 6.x 이전 | 7.0 이후 | 
 |---|---|---|
-| index | /{index}/{type}/{id} | /{index}/_doc/{id} |
-| delete | /{index}/{type}/{id} | /{index}/_doc/{id} |
-| get | /{index}/{type}/{id} | /{index}/_doc/{id} |
+| index | /{index}/{type}/{id} | /{index}/**_doc**/{id} |
+| delete | /{index}/{type}/{id} | /{index}/**_doc**/{id} |
+| get | /{index}/{type}/{id} | /{index}/**_doc**/{id} |
 | update | /{index}/{type}/{id}/_update | /{index}/_update/{id} |
 | get source | /{index}/{type}/{id}/_source | /{index}/_source/{id} |
 | bulk | /{index}/{type}/_bulk | /{index}/_bulk |
@@ -100,11 +108,11 @@ Elastic Stack은 5.0 부터 ELKB 제품들의 버전을 모두 일치시키면�
 
 Search 그리고 Index API 에서는 type 을 입력하던 부분을 모두 생략한다고 생각 하면 될 것 같습니다. Document API 에서를 type 이 들어가던 부분을 지정자 **`_doc`** 로 대치하면 대부분 적용됩니다. 그리고 제가 테스트 해 본 결과 Document API 의 경우에는 7.0 에서 `/{index}/_update/{id}` 대신 `/{index}/_doc/{id}/_update`  처럼 과거 형식으로 입력을 해도 정상적으로 실행이 됩니다.
 
-### 5.x 에서 업그레이드를 할 때 다중 type을 단일 type으로
+#### 5.x 에서 업그레이드를 할 때 다중 type을 단일 type으로
 
 사실 큰 문제는 5.x 이전 버전에서 한 인덱스에 여러 타입을 사용중인 경우 일 것입니다. 이 경우는 어쩔 수 없이 Logstash 또는 _reindex API를 이용해서 구조를 변경해서 새로 재 색인을 해야 합니다. 이에 관한 가이드는 [Removal of mapping types](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/removal-of-types.html) 페이지에서 볼 수 있습니다. 좀 더 팁을 드리자면 다음과 같은 경우들로 구분해서 생각을 해 볼 수 있을 것 같습니다.
 
-#### type 별로 다른 매핑을 사용하는 경우
+##### type 별로 다른 매핑을 사용하는 경우
 이때는 각각의 type 별로 새로운 인덱스를 만들어야 할 것입니다. 예를 들어 아래와 같이 my_index 라는 인덱스에 type_1, type_2 두개의 타입이 있는 경우
 ```
 PUT my_index
@@ -153,7 +161,7 @@ output {
 }
 ```
 
-#### type 별로 매핑이 거의 유사한 경우. 단 동일한 도큐먼트 ID가 존재하지 않아야 함.
+##### type 별로 매핑이 거의 유사한 경우. 단 동일한 도큐먼트 ID가 존재하지 않아야 함.
 이 경우는 한 인덱스로 매핑을 병합해서 사용할 수 있을 것입니다. 다음과 같이 my_index 안에 type_1 에는 name, age, gender, 그리고 type_2 에는 name, age, address 라는 필드가 생성되어 있다고 가정을 하면
 ```
 PUT my_index
@@ -235,6 +243,6 @@ output {
 }
 ```
 
-#### 한 인덱스 안에 parent - child 구조로 type 이 나뉘어 있는 경우
+##### 한 인덱스 안에 parent - child 구조로 type 이 나뉘어 있는 경우
 
 이 경우와 관련해서는 예전의 [Elasticsearch 6.x 에서의 join 사용](/2018/01/2018-01-parent-child-to-join) 포스트를 참고하시기 바랍니다.
