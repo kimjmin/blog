@@ -102,7 +102,7 @@ layout: layout
                 <% } %>
 
                 <% if(config['disqus_username']) { %>
-                <!-- disqus 评论框 start -->
+                <!-- disqus 评论框 start 
                 <div class="comment">
                     <div id="disqus_thread" class="disqus-thread"></div>
                 </div>
@@ -184,23 +184,16 @@ layout: layout
 <!-- 多说公共JS代码 end -->
 <% } %>
 
-<% if(config['disqus_username']) { %>
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "<%= config['disqus_username'] %>";
-    var disqus_identifier = "<%= page.permalink %>";
-    var disqus_url = "<%= page.permalink %>";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+<!-- new comment system powered by https://utteranc.es 시작 -->
+<script src="https://utteranc.es/client.js"
+        repo="kimjmin/blog-comments"
+        issue-term="pathname"
+        label="blog-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
 </script>
-<!-- disqus 公共JS代码 end -->
-<% } %>
-
+<!-- new comment system powered by https://utteranc.es 끝 -->
 
 <% if(config['anchorjs']) { %>
 <!-- async load function -->

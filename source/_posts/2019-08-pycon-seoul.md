@@ -1,5 +1,5 @@
 ---
-title: 2018 파이콘 부스 운영 후기
+title: 2019 파이콘 부스 운영 후기
 tags:
   - PyCon
   - Conference
