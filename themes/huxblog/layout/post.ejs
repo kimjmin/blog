@@ -102,7 +102,7 @@ layout: layout
                 <% } %>
 
                 <% if(config['disqus_username']) { %>
-                <!-- disqus 评论框 start 
+                <!-- disqus 评论框 start -->
                 <div class="comment">
                     <div id="disqus_thread" class="disqus-thread"></div>
                 </div>
@@ -160,6 +160,19 @@ layout: layout
                 <% }%>
             </div>
 
+            <!-- 페이스북 댓글 시작 -->
+            <!-- new comment system powered by https://developers.facebook.com/docs/plugins/comments -->
+            <!--
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+                <div class="fb-comments" data-href="<%= config.url + config.root + (page.path||'').replace('index.html', '') %>" data-width="100%" data-numposts="5"></div>
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v4.0&appId=184242408315791&autoLogAppEvents=1"></script>
+            </div>
+            <!-- 페이스북 댓글 끝 -->
+
         </div>
     </div>
 </article>
@@ -184,7 +197,7 @@ layout: layout
 <!-- 多说公共JS代码 end -->
 <% } %>
 
-<!-- new comment system powered by https://utteranc.es 시작 -->
+<!-- new comment system powered by https://utteranc.es 시작 
 <script src="https://utteranc.es/client.js"
         repo="kimjmin/blog-comments"
         issue-term="pathname"
