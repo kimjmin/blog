@@ -11,7 +11,7 @@ subtitle: Amazon S3 저장소에 있는 Static 웹페이지의 접속 로그를 
 header-img: datacenters.jpg
 categories:
   - Engineering
-date: 2020-07-10
+date: 2020-07-13
 ---
 
 드디어 Elastic Cloud 의 서울 리전이 생긴다는 기쁜 소식입니다.
