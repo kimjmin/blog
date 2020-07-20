@@ -24,7 +24,7 @@ https://events.elastic.co/2020-elasticcloud-seoul-promo
 Elastic Cloud 활용에 유용한 정보들을 시리즈로 작성 해 보려고 합니다. 오늘은 첫번째인 Logstash를 이용한 AWS S3 에서 Elastic Cloud 로 데이터 수집하기 입니다.
 
 > 1 - Amazon S3 에서 Elastic Cloud 로 데이터 수집하기
-> 
+> [2 - Elastic Cloud 마이그레이션](/2020/07/2020-07-elastic-cloud-migration)
 
 데이터 스토리지인 Amazon S3는 AWS 에서 가장 많이 쓰이는 서비스 중 하나입니다. 이번 포스트에서는 S3의 정적 웹사이트 호스팅 기능을 이용하는 웹 페이지 로그를 Logstash로 파싱해서 Elastic Cloud 로 수집하는 방법에 대해 설명하도록 하겠습니다.
 
