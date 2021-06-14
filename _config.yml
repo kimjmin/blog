@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Jongmin's Blog
+title: Jongmin's Lifelog
 subtitle: Survivor of digital era, SW engineer, evangelist, husband and father
 author: Jongmin Kim (김종민)
 language:
@@ -20,7 +20,7 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: Jongmin's blog
+SEOTitle: Jongmin's Lifelog
 header-img: img/home-bg.jpg
 email: kimjmin@gmail.com
 description: ""
