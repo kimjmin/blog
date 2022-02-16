@@ -3,6 +3,9 @@ title: Elastic Stack 7.0 출시 밎 지금까지의 변경들
 tags:
   - Elastic
   - Elasticsearch
+  - Kibana
+  - Release
+  - Engineering
 categories:
   - Engineering
 subtitle: 지금까지 출시되었던 Elastic Stack 의 내용과 변경점들을 살펴봅니다. 특히 7.0부터 사라진 type 구조에 대해 자세히 설명합니다.
