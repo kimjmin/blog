@@ -3,11 +3,29 @@
 > Kaijun/hexo-theme-huxblog 로 부터 fork.
 > 정적 웹페이지 블로그 플랫폼인 hexo.io 기반.
 
-###[블로그 바로가기 &rarr;](http://kimjmin.net)
+###[블로그 바로가기](http://kimjmin.net)
 
-이하는 원 repository의 README.md 내용.
+nvm 사용 권장.
+```
+nvm use
+npm install -g hexo
+npm install
+```
+
+로컬 서버에서 실행
+```
+hexo serve
+```
+
+Static Web Page 빌드
+```
+hexo generate
+```
 
 `deploy` 이후에는 패키지들 사라짐 `npm install` 다시 해줘야 함. 왜그런지 모르겠다.
+
+
+이하는 원 repository의 README.md 내용.
 
 
 #Hexo-Theme-Huxblog
